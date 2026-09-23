@@ -1,0 +1,859 @@
+{
+ "luat": "docs/benchmark/PREREG_M1-M4_20260916.md §A04.3–A04.5 + A06",
+ "moc_mu": "2026-09-17T07:48:33+07:00",
+ "moc_commit": "015c0e7",
+ "cham_luc": "2026-09-23T13:36:04+07:00",
+ "M6": {
+  "so_lan_hop_le": 20,
+  "lan": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "golden": "M6|lan01",
+  "o": {
+   "routing-hosted": {
+    "loai": "delegated",
+    "decision": {
+     "flaky_tests": 10,
+     "n_tests": 40,
+     "flake": 0.25,
+     "wilson": [
+      0.1419,
+      0.4019
+     ],
+     "fail_lan_chay": 37,
+     "n_lan_chay": 760,
+     "ty_le_lan_chay_khong_doc_lap": 0.0487
+    },
+    "artefact": {
+     "flaky_tests": 40,
+     "n_tests": 40,
+     "flake": 1.0,
+     "wilson": [
+      0.9124,
+      1.0
+     ],
+     "fail_lan_chay": 623,
+     "n_lan_chay": 760,
+     "ty_le_lan_chay_khong_doc_lap": 0.8197
+    },
+    "bien_art_tru_dec": 0.75,
+    "newcombe_bien": [
+     0.5746,
+     0.8581
+    ],
+    "kiem_nhat_quan_decision_flaky_ma_artefact_khong": 0,
+    "kiem_nhat_quan_nghia": "routing: > 0 = lỗi trích xuất (A06.1)"
+   },
+   "routing-local": {
+    "loai": "pinnable",
+    "decision": {
+     "flaky_tests": 0,
+     "n_tests": 40,
+     "flake": 0.0,
+     "wilson": [
+      0.0,
+      0.0876
+     ],
+     "fail_lan_chay": 0,
+     "n_lan_chay": 760,
+     "ty_le_lan_chay_khong_doc_lap": 0.0
+    },
+    "artefact": {
+     "flaky_tests": 0,
+     "n_tests": 40,
+     "flake": 0.0,
+     "wilson": [
+      0.0,
+      0.0876
+     ],
+     "fail_lan_chay": 0,
+     "n_lan_chay": 760,
+     "ty_le_lan_chay_khong_doc_lap": 0.0
+    },
+    "bien_art_tru_dec": -0.0,
+    "newcombe_bien": [
+     -0.0876,
+     0.0876
+    ],
+    "kiem_nhat_quan_decision_flaky_ma_artefact_khong": 0,
+    "kiem_nhat_quan_nghia": "routing: > 0 = lỗi trích xuất (A06.1)"
+   },
+   "stt-hosted": {
+    "loai": "delegated",
+    "decision": {
+     "flaky_tests": 0,
+     "n_tests": 23,
+     "flake": 0.0,
+     "wilson": [
+      0.0,
+      0.1431
+     ],
+     "fail_lan_chay": 0,
+     "n_lan_chay": 437,
+     "ty_le_lan_chay_khong_doc_lap": 0.0
+    },
+    "artefact": {
+     "flaky_tests": 1,
+     "n_tests": 23,
+     "flake": 0.0435,
+     "wilson": [
+      0.0077,
+      0.2099
+     ],
+     "fail_lan_chay": 10,
+     "n_lan_chay": 437,
+     "ty_le_lan_chay_khong_doc_lap": 0.0229
+    },
+    "bien_art_tru_dec": 0.0435,
+    "newcombe_bien": [
+     -0.104,
+     0.2099
+    ],
+    "kiem_nhat_quan_decision_flaky_ma_artefact_khong": 0,
+    "kiem_nhat_quan_nghia": "recognition: quan sát exploratory (A06.1)"
+   },
+   "stt-local": {
+    "loai": "pinnable",
+    "decision": {
+     "flaky_tests": 0,
+     "n_tests": 23,
+     "flake": 0.0,
+     "wilson": [
+      0.0,
+      0.1431
+     ],
+     "fail_lan_chay": 0,
+     "n_lan_chay": 437,
+     "ty_le_lan_chay_khong_doc_lap": 0.0
+    },
+    "artefact": {
+     "flaky_tests": 0,
+     "n_tests": 23,
+     "flake": 0.0,
+     "wilson": [
+      0.0,
+      0.1431
+     ],
+     "fail_lan_chay": 0,
+     "n_lan_chay": 437,
+     "ty_le_lan_chay_khong_doc_lap": 0.0
+    },
+    "bien_art_tru_dec": -0.0,
+    "newcombe_bien": [
+     -0.1431,
+     0.1431
+    ],
+    "kiem_nhat_quan_decision_flaky_ma_artefact_khong": 0,
+    "kiem_nhat_quan_nghia": "recognition: quan sát exploratory (A06.1)"
+   }
+  }
+ },
+ "M7": {
+  "don_vi": [
+   {
+    "o": 1,
+    "stage": "STT",
+    "observable": "nhãn ngôn ngữ",
+    "pinnability": "delegated",
+    "du_doan": "ổn định",
+    "nguon": "S1",
+    "k": 0,
+    "n": 31,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.1103
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": true,
+    "vao_mau_so": false,
+    "cap_vat_qua_offline": 21
+   },
+   {
+    "o": 1,
+    "stage": "STT",
+    "observable": "nhãn ngôn ngữ",
+    "pinnability": "delegated",
+    "du_doan": "ổn định",
+    "nguon": "S2",
+    "k": 0,
+    "n": 110,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0337
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 110
+   },
+   {
+    "o": 1,
+    "stage": "STT",
+    "observable": "nhãn ngôn ngữ",
+    "pinnability": "delegated",
+    "du_doan": "ổn định",
+    "nguon": "S3",
+    "k": 0,
+    "n": 205,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0184
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 2,
+    "stage": "STT",
+    "observable": "transcript",
+    "pinnability": "delegated",
+    "du_doan": "không",
+    "nguon": "S1",
+    "k": 3,
+    "n": 31,
+    "ty_le": 0.0968,
+    "wilson": [
+     0.0335,
+     0.249
+    ],
+    "phan_quyet": "sai",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 21
+   },
+   {
+    "o": 2,
+    "stage": "STT",
+    "observable": "transcript",
+    "pinnability": "delegated",
+    "du_doan": "không",
+    "nguon": "S2",
+    "k": 13,
+    "n": 110,
+    "ty_le": 0.1182,
+    "wilson": [
+     0.0704,
+     0.1918
+    ],
+    "phan_quyet": "sai",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 110
+   },
+   {
+    "o": 2,
+    "stage": "STT",
+    "observable": "transcript",
+    "pinnability": "delegated",
+    "du_doan": "không",
+    "nguon": "S3",
+    "k": 9,
+    "n": 205,
+    "ty_le": 0.0439,
+    "wilson": [
+     0.0233,
+     0.0813
+    ],
+    "phan_quyet": "sai",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 3,
+    "stage": "STT",
+    "observable": "nhãn ngôn ngữ",
+    "pinnability": "pinnable",
+    "du_doan": "ổn định",
+    "nguon": "S1",
+    "k": 0,
+    "n": 31,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.1103
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": true,
+    "vao_mau_so": false,
+    "cap_vat_qua_offline": 21
+   },
+   {
+    "o": 3,
+    "stage": "STT",
+    "observable": "nhãn ngôn ngữ",
+    "pinnability": "pinnable",
+    "du_doan": "ổn định",
+    "nguon": "S2",
+    "k": 0,
+    "n": 110,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0337
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 110
+   },
+   {
+    "o": 3,
+    "stage": "STT",
+    "observable": "nhãn ngôn ngữ",
+    "pinnability": "pinnable",
+    "du_doan": "ổn định",
+    "nguon": "S3",
+    "k": 0,
+    "n": 205,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0184
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 4,
+    "stage": "STT",
+    "observable": "transcript",
+    "pinnability": "pinnable",
+    "du_doan": "ổn định",
+    "nguon": "S1",
+    "k": 0,
+    "n": 31,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.1103
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": true,
+    "vao_mau_so": false,
+    "cap_vat_qua_offline": 21
+   },
+   {
+    "o": 4,
+    "stage": "STT",
+    "observable": "transcript",
+    "pinnability": "pinnable",
+    "du_doan": "ổn định",
+    "nguon": "S2",
+    "k": 0,
+    "n": 110,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0337
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 110
+   },
+   {
+    "o": 4,
+    "stage": "STT",
+    "observable": "transcript",
+    "pinnability": "pinnable",
+    "du_doan": "ổn định",
+    "nguon": "S3",
+    "k": 0,
+    "n": 205,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0184
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 5,
+    "stage": "routing",
+    "observable": "lookup",
+    "pinnability": "delegated t=0.8",
+    "du_doan": "ổn định",
+    "nguon": "M2",
+    "k": 1,
+    "n": 100,
+    "ty_le": 0.01,
+    "wilson": [
+     0.0018,
+     0.0545
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M2 hosted đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 100
+   },
+   {
+    "o": 5,
+    "stage": "routing",
+    "observable": "lookup",
+    "pinnability": "delegated t=0.8",
+    "du_doan": "ổn định",
+    "nguon": "M6",
+    "k": 2,
+    "n": 40,
+    "ty_le": 0.05,
+    "wilson": [
+     0.0138,
+     0.165
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 6,
+    "stage": "routing",
+    "observable": "text thô",
+    "pinnability": "delegated t=0.8",
+    "du_doan": "không",
+    "nguon": "M2",
+    "k": 80,
+    "n": 100,
+    "ty_le": 0.8,
+    "wilson": [
+     0.7112,
+     0.8666
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M2 hosted đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 100
+   },
+   {
+    "o": 6,
+    "stage": "routing",
+    "observable": "text thô",
+    "pinnability": "delegated t=0.8",
+    "du_doan": "không",
+    "nguon": "M6",
+    "k": 34,
+    "n": 40,
+    "ty_le": 0.85,
+    "wilson": [
+     0.7093,
+     0.9294
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 7,
+    "stage": "routing",
+    "observable": "lookup",
+    "pinnability": "delegated t=0.0",
+    "du_doan": "ổn định",
+    "nguon": "M2",
+    "k": 0,
+    "n": 100,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.037
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M2 hosted đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 100
+   },
+   {
+    "o": 8,
+    "stage": "routing",
+    "observable": "text thô",
+    "pinnability": "delegated t=0.0",
+    "du_doan": "không",
+    "nguon": "M2",
+    "k": 13,
+    "n": 100,
+    "ty_le": 0.13,
+    "wilson": [
+     0.0776,
+     0.2098
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M2 hosted đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 100
+   },
+   {
+    "o": 9,
+    "stage": "routing",
+    "observable": "lookup",
+    "pinnability": "pinnable qwen 7b",
+    "du_doan": "ổn định",
+    "nguon": "M2",
+    "k": 0,
+    "n": 100,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.037
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "suy máy móc từ ô artefact cùng nguồn (A06.1): decision tính từ artefact",
+    "cap_vat_qua_offline": 100
+   },
+   {
+    "o": 9,
+    "stage": "routing",
+    "observable": "lookup",
+    "pinnability": "pinnable qwen 7b",
+    "du_doan": "ổn định",
+    "nguon": "M6",
+    "k": 0,
+    "n": 40,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0876
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "suy máy móc từ ô artefact cùng nguồn (A06.1): decision tính từ artefact",
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 10,
+    "stage": "routing",
+    "observable": "text thô",
+    "pinnability": "pinnable qwen 7b",
+    "du_doan": "ổn định",
+    "nguon": "M2",
+    "k": 1,
+    "n": 100,
+    "ty_le": 0.01,
+    "wilson": [
+     0.0018,
+     0.0545
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 100
+   },
+   {
+    "o": 10,
+    "stage": "routing",
+    "observable": "text thô",
+    "pinnability": "pinnable qwen 7b",
+    "du_doan": "ổn định",
+    "nguon": "M6",
+    "k": 0,
+    "n": 40,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.0876
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 0
+   },
+   {
+    "o": 11,
+    "stage": "ngôn ngữ trả lời",
+    "observable": "nhãn",
+    "pinnability": "pinnable 7b",
+    "du_doan": "ổn định",
+    "nguon": "M4",
+    "k": 1,
+    "n": 50,
+    "ty_le": 0.02,
+    "wilson": [
+     0.0035,
+     0.105
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "suy máy móc từ ô artefact cùng nguồn (A06.1): decision tính từ artefact",
+    "cap_vat_qua_offline": 50
+   },
+   {
+    "o": 12,
+    "stage": "ngôn ngữ trả lời",
+    "observable": "reply_text",
+    "pinnability": "pinnable 7b",
+    "du_doan": "ổn định",
+    "nguon": "M4",
+    "k": 9,
+    "n": 50,
+    "ty_le": 0.18,
+    "wilson": [
+     0.0977,
+     0.308
+    ],
+    "phan_quyet": "sai",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 50
+   },
+   {
+    "o": 13,
+    "stage": "ngôn ngữ trả lời",
+    "observable": "nhãn",
+    "pinnability": "pinnable 3b",
+    "du_doan": "ổn định",
+    "nguon": "M4",
+    "k": 1,
+    "n": 50,
+    "ty_le": 0.02,
+    "wilson": [
+     0.0035,
+     0.105
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "suy máy móc từ ô artefact cùng nguồn (A06.1): decision tính từ artefact",
+    "cap_vat_qua_offline": 50
+   },
+   {
+    "o": 14,
+    "stage": "ngôn ngữ trả lời",
+    "observable": "reply_text",
+    "pinnability": "pinnable 3b",
+    "du_doan": "ổn định",
+    "nguon": "M4",
+    "k": 4,
+    "n": 50,
+    "ty_le": 0.08,
+    "wilson": [
+     0.0315,
+     0.1884
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": false,
+    "vao_mau_so": true,
+    "cap_vat_qua_offline": 50
+   },
+   {
+    "o": 15,
+    "stage": "grounding",
+    "observable": "lookup",
+    "pinnability": "delegated",
+    "du_doan": "ổn định",
+    "nguon": "M3",
+    "k": 0,
+    "n": 30,
+    "ty_le": 0.0,
+    "wilson": [
+     0.0,
+     0.1135
+    ],
+    "phan_quyet": "không phân định",
+    "thieu_luc": true,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M3 đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 30
+   },
+   {
+    "o": 16,
+    "stage": "grounding",
+    "observable": "domain-set",
+    "pinnability": "delegated",
+    "du_doan": "không",
+    "nguon": "M3",
+    "k": 20,
+    "n": 30,
+    "ty_le": 0.6667,
+    "wilson": [
+     0.4878,
+     0.8077
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M3 đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 30
+   },
+   {
+    "o": 17,
+    "stage": "grounding",
+    "observable": "text",
+    "pinnability": "delegated",
+    "du_doan": "không",
+    "nguon": "M3",
+    "k": 21,
+    "n": 30,
+    "ty_le": 0.7,
+    "wilson": [
+     0.5212,
+     0.8334
+    ],
+    "phan_quyet": "đúng",
+    "thieu_luc": false,
+    "vao_mau_so": false,
+    "loai_a06": "cấu hình M3 đã có số pilot dựng mô hình (A06.3)",
+    "cap_vat_qua_offline": 30
+   }
+  ],
+  "khong_mu": [],
+  "depth": {
+   "nhom": [
+    {
+     "nhom": "delegated × decision",
+     "don_vi": [
+      {
+       "o": 1,
+       "nguon": "S1",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 31
+      },
+      {
+       "o": 1,
+       "nguon": "S2",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 110
+      },
+      {
+       "o": 1,
+       "nguon": "S3",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 205
+      },
+      {
+       "o": 5,
+       "nguon": "M6",
+       "do_sau": 2,
+       "loai": "ổn định",
+       "k": 2,
+       "n": 40
+      }
+     ],
+     "ket_qua": "hỗ trợ (c)"
+    },
+    {
+     "nhom": "delegated × artefact",
+     "don_vi": [
+      {
+       "o": 2,
+       "nguon": "S3",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 9,
+       "n": 205
+      },
+      {
+       "o": 6,
+       "nguon": "M6",
+       "do_sau": 2,
+       "loai": "không ổn định",
+       "k": 34,
+       "n": 40
+      }
+     ],
+     "ket_qua": "bác (c)"
+    },
+    {
+     "nhom": "caller-pinnable × artefact",
+     "don_vi": [
+      {
+       "o": 4,
+       "nguon": "S1",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 31
+      },
+      {
+       "o": 4,
+       "nguon": "S2",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 110
+      },
+      {
+       "o": 4,
+       "nguon": "S3",
+       "do_sau": 1,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 205
+      },
+      {
+       "o": 10,
+       "nguon": "M2",
+       "do_sau": 2,
+       "loai": "ổn định",
+       "k": 1,
+       "n": 100
+      },
+      {
+       "o": 10,
+       "nguon": "M6",
+       "do_sau": 2,
+       "loai": "ổn định",
+       "k": 0,
+       "n": 40
+      }
+     ],
+     "ket_qua": "hỗ trợ (c)"
+    }
+   ],
+   "ho_tro": 2,
+   "bac": 1,
+   "khong_phan_dinh": 0
+  },
+  "tong_ket": {
+   "dung": 9,
+   "sai": 4,
+   "khong_phan_dinh": 2,
+   "mau_so": 15,
+   "loai_a06": 11,
+   "thieu_luc_khong_tinh": 3,
+   "chua_co_cap_mu": 0
+  }
+ }
+}

@@ -1,0 +1,36 @@
+nhánh qwen2.5:7b: 4,000 lượt, 1 luồng -> <repo>/study\langconf\results\main_qwen2.5-7b.jsonl
+     80 ô × 50 câu =   4,000 lượt
+  [asr] 25/150 (chép mới 0)
+  [asr] 50/150 (chép mới 0)
+  [asr] 75/150 (chép mới 0)
+  [asr] 100/150 (chép mới 0)
+  [asr] 125/150 (chép mới 0)
+  [asr] 150/150 (chép mới 0)
+{'needed': 150, 'transcribed': 0, 'cached': 150}
+[chạy] 4000 lượt còn lại (đã xong 0), 1 luồng, ghi vào <repo>/study\langconf\results\main_qwen2.5-7b.jsonl
+  25/4000  0.05 lượt/s  còn ~1280 phút  lỗi 0
+  50/4000  0.06 lượt/s  còn ~1070 phút  lỗi 0
+  75/4000  0.07 lượt/s  còn ~968 phút  lỗi 0
+  100/4000  0.07 lượt/s  còn ~924 phút  lỗi 0
+  125/4000  0.07 lượt/s  còn ~900 phút  lỗi 0
+  150/4000  0.07 lượt/s  còn ~881 phút  lỗi 0
+  175/4000  0.07 lượt/s  còn ~859 phút  lỗi 0
+  200/4000  0.08 lượt/s  còn ~828 phút  lỗi 0
+  225/4000  0.08 lượt/s  còn ~807 phút  lỗi 0
+  250/4000  0.08 lượt/s  còn ~793 phút  lỗi 0
+  275/4000  0.08 lượt/s  còn ~794 phút  lỗi 0
+  300/4000  0.08 lượt/s  còn ~781 phút  lỗi 0
+  325/4000  0.08 lượt/s  còn ~779 phút  lỗi 0
+  350/4000  0.08 lượt/s  còn ~786 phút  lỗi 0
+  375/4000  0.08 lượt/s  còn ~772 phút  lỗi 0
+  400/4000  0.08 lượt/s  còn ~784 phút  lỗi 0
+  425/4000  0.08 lượt/s  còn ~768 phút  lỗi 0
+  450/4000  0.08 lượt/s  còn ~752 phút  lỗi 0
+  475/4000  0.08 lượt/s  còn ~738 phút  lỗi 0
+  500/4000  0.08 lượt/s  còn ~730 phút  lỗi 0
+  525/4000  0.08 lượt/s  còn ~732 phút  lỗi 0
+  550/4000  0.08 lượt/s  còn ~730 phút  lỗi 0
+  575/4000  0.08 lượt/s  còn ~721 phút  lỗi 0
+  600/4000  0.08 lượt/s  còn ~716 phút  lỗi 0
+  625/4000  0.08 lượt/s  còn ~710 phút  lỗi 0
+  650/4000  0.08 lượt/s  còn ~703 phút  lỗi 0

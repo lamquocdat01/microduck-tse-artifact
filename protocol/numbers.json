@@ -1,0 +1,705 @@
+{
+  "_generated_from": "docs/PAPER-NUMBERS.md",
+  "_rule": "value · n · ci · source · conventions; thiếu cột nào thì không vào bài",
+  "numbers": {
+    "hw.rx_first.p50.batch1": {
+      "value": "133,4 ms",
+      "n": "47 lượt",
+      "ci": null,
+      "src": "docs/benchmark/device_floor_20260906_v1.jsonl",
+      "conv": "phân vị gần nhất; lát cắt: 57 bản ghi đầu, giữ lượt có t_tx_first",
+      "probe": "133,4"
+    },
+    "hw.rx_first.p50.batch2": {
+      "value": "131,6 ms",
+      "n": "59 lượt",
+      "ci": null,
+      "src": "docs/benchmark/device_floor_20260909_v1.jsonl",
+      "conv": "phân vị gần nhất; lát cắt: trọn phiên 1788966181-b850",
+      "probe": "131,6"
+    },
+    "hw.rtt.p50.batch1": {
+      "value": "32,4 ms",
+      "n": "47 lượt",
+      "ci": null,
+      "src": "docs/benchmark/device_floor_20260906_v1.jsonl",
+      "conv": "phân vị gần nhất",
+      "probe": "32,4"
+    },
+    "hw.rtt.p50.batch2": {
+      "value": "4,65 ms — hằng số trong phiên",
+      "n": "59 lượt",
+      "ci": null,
+      "src": "docs/benchmark/device_floor_20260909_v1.jsonl",
+      "conv": "phân vị gần nhất",
+      "probe": "4,65"
+    },
+    "hw.group_gap": {
+      "value": "1,1 ms (132,2 so với 131,1)",
+      "n": "47 vs 12 lượt",
+      "ci": null,
+      "src": "docs/benchmark/device_floor_20260909_v1.jsonl",
+      "conv": "lát cắt thay thế cho 2,3 ms; p50 y hệt ở cả hai",
+      "probe": "1,1 ms"
+    },
+    "hw.uplink": {
+      "value": "p50 177,8 / p95 334,9 ms",
+      "n": "22 click",
+      "ci": null,
+      "src": "docs/benchmark/devout_20260910_p1.json",
+      "conv": "phân vị gần nhất; BỘ TẤT CẢ (n=22). Bỏ cụm cao thì p50 164,0 / p95 207,2 (n=19) — phải nói rõ đang trích bộ nào. Số cõng −m.",
+      "probe": "177,8"
+    },
+    "hw.downlink": {
+      "value": "p50 319,0 / p95 352,0 ms",
+      "n": "18 lượt",
+      "ci": null,
+      "src": "docs/benchmark/devout_20260910_p2.json",
+      "conv": "phân vị gần nhất; gồm cả một điểm rời 1 466 ms. Trung bình 319,5 ± 22,2 trên 17 lượt sau khi bỏ điểm ấy. Số cõng +m.",
+      "probe": "319,0"
+    },
+    "hw.device_floor": {
+      "value": "p50 525,9 / p95 653,9 ms",
+      "n": "16 lượt",
+      "ci": null,
+      "src": "docs/benchmark/devout_20260910_p3.json",
+      "conv": "phân vị gần nhất; bỏ điểm rời. m TỰ TRIỆT TIÊU nên dòng này không phụ thuộc con số 20,0 ms mà driver khai báo.",
+      "probe": "525,9"
+    },
+    "hw.rx_first.p50.batch3": {
+      "value": "130,3 ms",
+      "n": "25 Turn",
+      "ci": null,
+      "src": "docs/benchmark/device_floor_20260910_v1.jsonl",
+      "conv": "phân vị gần nhất; trọn lát cắt ba mẻ 10/09",
+      "probe": "130,3"
+    },
+    "hw.marker_artifact": {
+      "value": "319,0 so với 875,9 ms — chênh 2,7 lần",
+      "n": "18 lượt",
+      "ci": null,
+      "src": "docs/benchmark/devout_20260910_p1.json",
+      "conv": "CÙNG dữ liệu, cùng lượt, chỉ khác dụng cụ chấm mốc: lọc phối hợp so với ngưỡng+thời gian giữ. Giả tượng đo lường thứ sáu.",
+      "probe": "875,9"
+    },
+    "stt.det.local": {
+      "value": "1/10 → 0/10 câu bất ổn",
+      "n": "10 câu × 3 vòng",
+      "ci": "Wilson 0,018–0,404 → 0,000–0,278",
+      "src": "docs/benchmark/stt_determinism_20260910_v2.jsonl",
+      "conv": "so transcript nguyên văn; lát cắt: cả 3 vòng",
+      "probe": "1/10 → 0/10"
+    },
+    "stt.p95.base": {
+      "value": "2 506,9 → 1 494,3 ms = −40,4 %",
+      "n": "30 / 30",
+      "ci": null,
+      "src": "docs/benchmark/stt_determinism_20260910_v2.jsonl",
+      "conv": "phân vị gần nhất; lát cắt: cả 3 vòng",
+      "probe": "−40,4 %"
+    },
+    "stt.hosted.day": {
+      "value": "5/31 = 0,161",
+      "n": "31",
+      "ci": "Wilson 0,071–0,326",
+      "src": "docs/benchmark/stt_rescore_20260906_v3_fixed.json × docs/benchmark/stt_rescore_20260907_v4_owner.json",
+      "conv": "so `hypothesis` nguyên văn, không chuẩn hoá; cách nhau MỘT NGÀY",
+      "probe": "5/31"
+    },
+    "stt.hosted.session": {
+      "value": "2/31 = 0,065 (thô 3/31)",
+      "n": "31",
+      "ci": "Wilson 0,018–0,207",
+      "src": "docs/benchmark/stt_hosted_repeat_20260910_v1.jsonl",
+      "conv": "so `hypothesis` nguyên văn; cách nhau 180 GIÂY; timeout_s = 4,0 đội thô lên 3/31",
+      "probe": "2/31"
+    },
+    "stt.local.stable": {
+      "value": "0/31 = 0,000",
+      "n": "31",
+      "ci": "Wilson 0,000–0,110",
+      "src": "docs/benchmark/stt_rescore_20260906_v3_fixed.json × docs/benchmark/stt_rescore_20260907_v4_owner.json",
+      "conv": "như trên; hai backend cục bộ",
+      "probe": "0/31"
+    },
+    "stt.wer.hosted": {
+      "value": "D-WER 0,3333",
+      "n": "31",
+      "ci": null,
+      "src": "docs/benchmark/stt_rescore_20260906_v3_fixed.json",
+      "conv": "D-WER (thước LỎNG NHẤT, D ≤ N ≤ O); lát cắt trọn 31",
+      "probe": "0,3333"
+    },
+    "stt.wer.large_local": {
+      "value": "D-WER 0,3684",
+      "n": "31",
+      "ci": null,
+      "src": "docs/benchmark/stt_rescore_20260906_v3_fixed.json",
+      "conv": "D-WER",
+      "probe": "0,3684"
+    },
+    "stt.wer.small_local": {
+      "value": "D-WER 0,7076",
+      "n": "31",
+      "ci": null,
+      "src": "docs/benchmark/stt_rescore_20260906_v3_fixed.json",
+      "conv": "D-WER",
+      "probe": "0,7076"
+    },
+    "stt.wer.spread": {
+      "value": "O/N/D = 0,458 / 0,415 / 0,368",
+      "n": "31",
+      "ci": null,
+      "src": "docs/benchmark/stt_rescore_20260907_v4_owner.json",
+      "conv": "ba thước; giãn O→D = 0,090 so với 0,035 giữa hai hệ",
+      "probe": "0,458"
+    },
+    "stt.lang_wrong": {
+      "value": "6/31 = 0,194",
+      "n": "31",
+      "ci": "Wilson 0,092–0,363",
+      "src": "docs/baseline/latency_desktop_realvoice_2026-09-06_v2.jsonl",
+      "conv": "trọn phiên",
+      "probe": "6/31"
+    },
+    "route.acc.all": {
+      "value": "recall 0,720",
+      "n": "50 / 50",
+      "ci": "Wilson 0,583–0,825",
+      "src": "docs/benchmark/lookup_accuracy_20260909_v2.jsonl",
+      "conv": "khối A",
+      "probe": "0,720 (0,583–0,825)"
+    },
+    "route.acc.vi": {
+      "value": "recall 0,920",
+      "n": "25 / 25",
+      "ci": "Wilson 0,750–0,978",
+      "src": "docs/benchmark/lookup_accuracy_20260909_v2.jsonl",
+      "conv": "khối A, nửa vi",
+      "probe": "0,920 (0,750–0,978)"
+    },
+    "route.acc.en": {
+      "value": "recall 0,520",
+      "n": "25 / 25",
+      "ci": "Wilson 0,335–0,700",
+      "src": "docs/benchmark/lookup_accuracy_20260909_v2.jsonl",
+      "conv": "khối A, nửa en",
+      "probe": "0,520 (0,335–0,700)"
+    },
+    "route.grey.slow": {
+      "value": "recall 0,450",
+      "n": "20",
+      "ci": "Wilson 0,258–0,658",
+      "src": "docs/benchmark/lookup_accuracy_20260909_v2.jsonl",
+      "conv": "fact_type slow-changing",
+      "probe": "0,258–0,658"
+    },
+    "grid.vi_vi": {
+      "value": "192/200 = 0,960",
+      "n": "200",
+      "ci": "Wilson 0,923–0,980",
+      "src": "docs/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl",
+      "conv": "25 câu × 8 lần",
+      "probe": "0,960 (0,923–0,980)"
+    },
+    "grid.en_vi": {
+      "value": "174/199 = 0,874",
+      "n": "199",
+      "ci": "Wilson 0,821–0,913",
+      "src": "docs/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl",
+      "conv": "ô QUYẾT ĐỊNH",
+      "probe": "0,874 (0,821–0,913)"
+    },
+    "grid.vi_en": {
+      "value": "102/200 = 0,510",
+      "n": "200",
+      "ci": "Wilson 0,441–0,578",
+      "src": "docs/benchmark/lookup_rule_lang_20260910_v3.jsonl",
+      "conv": "25 câu × 8 lần",
+      "probe": "0,510 (0,441–0,578)"
+    },
+    "grid.en_en": {
+      "value": "166/200 = 0,830",
+      "n": "200",
+      "ci": "Wilson 0,772–0,876",
+      "src": "docs/benchmark/lookup_rule_lang_20260910_v3.jsonl",
+      "conv": "25 câu × 8 lần",
+      "probe": "0,830 (0,772–0,876)"
+    },
+    "grid.decisive_p": {
+      "value": "0,960 → 0,874, z = +3,105, p = 0,0019",
+      "n": "200 / 199",
+      "ci": null,
+      "src": "docs/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl",
+      "conv": "z hai tỉ lệ",
+      "probe": "0,0019"
+    },
+    "grid.J_pooled": {
+      "value": "+0,680 / +0,702 / +0,685",
+      "n": "400 / 400 mỗi bản",
+      "ci": null,
+      "src": "docs/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl × docs/benchmark/lookup_rule_lang_20260910_v3.jsonl",
+      "conv": "gộp hai nửa",
+      "probe": "+0,680"
+    },
+    "grid.gap": {
+      "value": "chênh hai nửa 0,450 → 0,044",
+      "n": "400 / 400",
+      "ci": null,
+      "src": "docs/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl",
+      "conv": "gộp hai nửa",
+      "probe": "0,044"
+    },
+    "det.temp0": {
+      "value": "100/100 câu nhất quán",
+      "n": "1 000 lượt",
+      "ci": "Wilson 0,963–1,000; quy tắc ba: cận trên ≈ 0,3 %",
+      "src": "docs/benchmark/lookup_determinism_20260909_v1.jsonl",
+      "conv": "10 lần mỗi câu",
+      "probe": "100/100"
+    },
+    "det.temp08": {
+      "value": "87/100; flip rate 3,30 %",
+      "n": "~1 000 lượt",
+      "ci": "Wilson 0,790–0,922",
+      "src": "docs/benchmark/lookup_determinism_20260909_v1.jsonl",
+      "conv": "10 lần mỗi câu",
+      "probe": "87/100"
+    },
+    "det.J_by_temp": {
+      "value": "J +0,670 → +0,679",
+      "n": "1 000 / 999",
+      "ci": null,
+      "src": "docs/benchmark/lookup_determinism_20260909_v1.jsonl",
+      "conv": "cả hai config trong một file",
+      "probe": "+0,670"
+    },
+    "hist.b6b": {
+      "value": "0,980 vs 0,820; z = +3,012; p = 0,0026",
+      "n": "40 câu × 5",
+      "ci": null,
+      "src": "docs/benchmark/lookup_history_bang6_20260909_v1.jsonl × docs/benchmark/lookup_history_neutral_am_20260909_v1_b2.jsonl",
+      "conv": "20 fast + 20 never",
+      "probe": "0,0026"
+    },
+    "hist.sweep_fp": {
+      "value": "sai-dương 0,130 → 0,460; J 0,690 → 0,540",
+      "n": "40 câu × 5",
+      "ci": null,
+      "src": "docs/benchmark/lookup_history_neutral_20260909_v1.jsonl × docs/benchmark/lookup_history_neutral_am_20260909_v1.jsonl",
+      "conv": "nửa dương × nửa âm",
+      "probe": "0,540"
+    },
+    "hist.refusal_best": {
+      "value": "J 0,770; precision 0,964; sai-dương 0,030",
+      "n": "40 câu × 5",
+      "ci": null,
+      "src": "docs/benchmark/lookup_history_neutral_20260909_v1.jsonl × docs/benchmark/lookup_history_neutral_am_20260909_v1.jsonl",
+      "conv": "điểm vận hành tốt nhất — một TAI NẠN, không phải tinh chỉnh",
+      "probe": "0,964"
+    },
+    "hist.ab_refusal": {
+      "value": "A z = +2,858; B z = +3,959",
+      "n": "100 mỗi ô",
+      "ci": null,
+      "src": "docs/benchmark/lookup_ab_refusal_20260909_v1.jsonl",
+      "conv": "⚠ KHÔNG có nửa âm — chỉ dùng cho phép so A/B một biến",
+      "probe": "+3,959"
+    },
+    "lever.setA": {
+      "value": "sai-dương 5,5× · J 1,05×",
+      "n": "7 cấu hình",
+      "ci": null,
+      "src": "tổng hợp ba mẻ — xem PAPER-NUMBERS §Mục 6ter",
+      "conv": "TẬP A: hai nhiệt độ, ba bản quy tắc (gộp), lịch sử lượt đầu + 3 tán gẫu",
+      "probe": "5,5×"
+    },
+    "lever.setB": {
+      "value": "sai-dương 15,3× · J 1,43×",
+      "n": "10 điểm vận hành",
+      "ci": null,
+      "src": "tổng hợp ba mẻ — xem PAPER-NUMBERS §Mục 6ter",
+      "conv": "TẬP B: tập A + 6/9 lượt tán gẫu + sau 3 từ chối",
+      "probe": "15,3×"
+    },
+    "gr.decision": {
+      "value": "0/30",
+      "n": "30",
+      "ci": "Wilson 0,000–0,114; quy tắc ba: ≤ 10 %",
+      "src": "docs/benchmark/grounding_stability_20260909_run1.jsonl × docs/benchmark/grounding_stability_20260910_run2.jsonl",
+      "conv": "cửa sổ 13 giờ, qua đêm",
+      "probe": "0/30"
+    },
+    "gr.domains": {
+      "value": "15/21 = 0,714",
+      "n": "21 câu có tra",
+      "ci": "Wilson 0,500–0,862",
+      "src": "docs/benchmark/grounding_stability_20260909_run1.jsonl × docs/benchmark/grounding_stability_20260910_run2.jsonl",
+      "conv": "so bằng TÊN MIỀN, không phải uri",
+      "probe": "15/21"
+    },
+    "gr.jaccard": {
+      "value": "0,51",
+      "n": "21",
+      "ci": "— (trung bình, không phải tỉ lệ)",
+      "src": "docs/benchmark/grounding_stability_20260909_run1.jsonl × docs/benchmark/grounding_stability_20260910_run2.jsonl",
+      "conv": "trung bình Jaccard tập tên miền",
+      "probe": "0,51"
+    },
+    "gr.neg_control": {
+      "value": "7/9 = 0,78; Fisher p = 0,083",
+      "n": "9",
+      "ci": "Wilson 0,453–0,937",
+      "src": "docs/benchmark/grounding_stability_20260909_run1.jsonl × docs/benchmark/grounding_stability_20260910_run2.jsonl",
+      "conv": "đối chứng âm — so trên câu vịt NÓI RA",
+      "probe": "7/9"
+    },
+    "gr.cost": {
+      "value": "lời gọi hai 3 186 ms p50; +103 ms tới lúc nghe thấy",
+      "n": "15 lượt có tra",
+      "ci": null,
+      "src": "docs/benchmark/grounding_20260909_v1.jsonl",
+      "conv": "phân vị gần nhất; phân bố lưỡng cực",
+      "probe": "+103 ms"
+    },
+    "lat.e2e_v3": {
+      "value": "p50 5 129 / p95 7 649 ms",
+      "n": "90",
+      "ci": null,
+      "src": "docs/baseline/latency_desktop_baseline_2026-09-06_v3.jsonl",
+      "conv": "phân vị gần nhất; nội suy tuyến tính cho 7 534 — lệch 115 ms",
+      "probe": "7 649"
+    },
+    "lat.coldstart": {
+      "value": "p50 và p95 dịch 0,00 ms ở cả 7 file",
+      "n": "90 / 31",
+      "ci": null,
+      "src": "docs/baseline/latency_desktop_baseline_2026-09-06_v3.jsonl",
+      "conv": "trừ 87,7 ms khỏi lượt đầu mỗi tiến trình",
+      "probe": "0,00 ms"
+    },
+    "lat.e2e_with_device": {
+      "value": "5 655 ms (5 129 + 526)",
+      "n": "90 + 16",
+      "ci": null,
+      "src": "docs/baseline/latency_desktop_baseline_2026-09-06_v3.jsonl",
+      "conv": "CHỈ dòng p50 cộng được. Dòng p95 (8 303 ms) là CẬN TRÊN THÔ, không phải p95 của tổng: hai đuôi độc lập nên chúng không đạt đỉnh cùng lúc.",
+      "probe": "5 655"
+    },
+    "ow.rerun.lang": {
+      "value": "23/23 = 1,000 nhãn không đổi",
+      "n": "23 lượt",
+      "ci": "Wilson 0,857–1,000",
+      "src": "study/langconf/results/rerun_check_qwen2.5-7b.json",
+      "conv": "cùng model, cùng prompt, cùng máy, seed=0 và temperature đã ghim, cách nhau 4 ngày. KHÔNG được viết 'tất định': cận dưới chỉ 0,857.",
+      "probe": "23/23"
+    },
+    "ow.grid.qwen_d2": {
+      "value": "0,746 so với 0,977 (không nhãn / nhãn ở user)",
+      "n": "134 và 133 lượt",
+      "ci": "Wilson 0,67–0,81 và 0,94–0,99",
+      "src": "study/langconf/results/openweight_check.json",
+      "conv": "LƯỚI RÚT GỌN 6 ô, Q4_K_M, ollama CPU. Tác vụ PHỤ — không phải phép đo nào của bài. Chiều tái lập, độ lớn thì không: ô này hosted rơi xuống 0,002.",
+      "probe": "0,746"
+    },
+    "ow.grid.qwen_d8": {
+      "value": "0,515 so với 0,955",
+      "n": "134 và 132 lượt",
+      "ci": "Wilson 0,43–0,60 và 0,90–0,98",
+      "src": "study/langconf/results/openweight_check.json",
+      "conv": "như trên; KTC hai ô TÁCH HẲN",
+      "probe": "0,515"
+    },
+    "ow.grid.llama_d2": {
+      "value": "26/26 = 1,000 — không nhiễm chút nào",
+      "n": "26 lượt",
+      "ci": "Wilson 0,87–1,00",
+      "src": "study/langconf/results/openweight_check.json",
+      "conv": "nhánh còn dở (128/4 000); KTC rộng. Ô mà hosted rơi xuống 0,002.",
+      "probe": "26/26"
+    },
+    "ow.rerun.text": {
+      "value": "7/23 = 0,304 chữ trùng từng ký tự",
+      "n": "23 lượt",
+      "ci": "Wilson 0,156–0,509",
+      "src": "study/langconf/results/rerun_check_qwen2.5-7b.json",
+      "conv": "cùng lượt như trên. Mọi tham số ghim được đều đã ghim mà chữ vẫn đổi ở 70 % số lượt — cái tất định là QUYẾT ĐỊNH, không phải VĂN BẢN.",
+      "probe": "7/23"
+    }
+  },
+  "dan_xuat": {
+    "silent.count": {
+      "value": "7",
+      "word": "seven",
+      "n": "7 ca",
+      "ci": null,
+      "src": "paper/09b-silent-failures.md §A (bảng)",
+      "conv": "đếm số # nguyên; 2b là cơ chế thứ hai của ca 2",
+      "probe": null,
+      "macro": "numSilentFailures"
+    },
+    "m1.s1.n": {
+      "value": "31",
+      "n": "31 utterance",
+      "ci": null,
+      "src": "plan.json: task M1 rv1_* t0 gemini",
+      "conv": "cỡ tầng thiết kế (A04.2), không phải kết quả",
+      "probe": null,
+      "macro": "numSOne"
+    },
+    "m1.s2.n": {
+      "value": "110",
+      "n": "110 utterance",
+      "ci": null,
+      "src": "plan.json: task M1 tang=wild t0 gemini",
+      "conv": "cỡ tầng thiết kế (A04.2), không phải kết quả",
+      "probe": null,
+      "macro": "numSTwo"
+    },
+    "m1.s3.n": {
+      "value": "205",
+      "n": "205 utterance",
+      "ci": null,
+      "src": "M1_s3_manifest.json tong.nhan (= plan tang=s3)",
+      "conv": "cỡ tầng thiết kế (A04.2), không phải kết quả",
+      "probe": null,
+      "macro": "numSThree"
+    },
+    "m6.runs": {
+      "value": "20",
+      "word": "twenty",
+      "n": "20 lần chạy",
+      "ci": null,
+      "src": "plan.json: task M6 (= m6.lich)",
+      "conv": "thiết kế A04.3; ok trong jsonl hiện 20",
+      "probe": null,
+      "macro": "numMSixRuns"
+    },
+    "m6.days": {
+      "value": "4",
+      "word": "four",
+      "n": "4 ngày lịch",
+      "ci": null,
+      "src": "plan.json: ngày khác nhau trong m6.lich",
+      "conv": "đếm ngày lịch, không phải 24 h × n",
+      "probe": null,
+      "macro": "numMSixDays"
+    },
+    "m3.milestones": {
+      "value": "14",
+      "n": "14 mốc",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "số mốc 12 h theo A01.3",
+      "probe": null,
+      "macro": "numMThreeMilestones"
+    },
+    "m3.questions": {
+      "value": "30",
+      "n": "30 câu",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "cỡ bộ câu hỏi mỗi mốc",
+      "probe": null,
+      "macro": "numMThreeQuestions"
+    },
+    "m3.retrieving": {
+      "value": "20",
+      "n": "20 / 30 câu",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "câu CÓ tra ở mốc 1; mẫu số của hai dòng dưới",
+      "probe": null,
+      "macro": "numMThreeRetrieving"
+    },
+    "m3.domain_changed": {
+      "value": "19",
+      "n": "19 / 20 câu có tra",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "mốc 14 so mốc 1, tập tên miền",
+      "probe": null,
+      "macro": "numMThreeDomainChanged"
+    },
+    "m3.text_changed": {
+      "value": "20",
+      "n": "20 / 20 câu có tra",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "mốc 14 so mốc 1, trường answer",
+      "probe": null,
+      "macro": "numMThreeTextChanged"
+    },
+    "m3.domain_lo": {
+      "value": "17",
+      "n": "13 mốc (2..14)",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "cận DƯỚI dải domain-set đổi — dùng để nói curve PHẲNG",
+      "probe": null,
+      "macro": "numMThreeDomainLo"
+    },
+    "m3.domain_hi": {
+      "value": "21",
+      "n": "13 mốc (2..14)",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "cận TRÊN dải domain-set đổi",
+      "probe": null,
+      "macro": "numMThreeDomainHi"
+    },
+    "m3.text_lo": {
+      "value": "20",
+      "n": "13 mốc (2..14)",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "cận DƯỚI dải text đổi",
+      "probe": null,
+      "macro": "numMThreeTextLo"
+    },
+    "m3.text_hi": {
+      "value": "21",
+      "n": "13 mốc (2..14)",
+      "ci": null,
+      "src": "docs/benchmark/M3_20260916_v1.jsonl (14 mốc × 30 câu)",
+      "conv": "cận TRÊN dải text đổi",
+      "probe": null,
+      "macro": "numMThreeTextHi"
+    },
+    "m6.margin": {
+      "value": "0.750",
+      "n": "40 test, 19 lần",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "biên flake(artefact) − flake(decision), ô routing-hosted",
+      "probe": null,
+      "macro": "numMSixMargin"
+    },
+    "m6.margin_lo": {
+      "value": "0.575",
+      "n": "40 test, 19 lần",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "Newcombe 95 % cận dưới",
+      "probe": null,
+      "macro": "numMSixMarginLo"
+    },
+    "m6.margin_hi": {
+      "value": "0.858",
+      "n": "40 test, 19 lần",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "Newcombe 95 % cận trên",
+      "probe": null,
+      "macro": "numMSixMarginHi"
+    },
+    "m6.dec_flaky": {
+      "value": "10",
+      "n": "k of n tests flaky across 19 runs",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "bộ decision CŨNG flake — không phải 0",
+      "probe": null,
+      "macro": "numMSixDecFlaky"
+    },
+    "m6.art_flaky": {
+      "value": "40",
+      "n": "k of n tests flaky across 19 runs",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "bộ artefact, cùng mẫu số",
+      "probe": null,
+      "macro": "numMSixArtFlaky"
+    },
+    "m6.n_tests": {
+      "value": "40",
+      "n": "k of n tests flaky across 19 runs",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "mẫu số của hai dòng trên",
+      "probe": null,
+      "macro": "numMSixTestsRouting"
+    },
+    "m6.short_dec": {
+      "value": "0",
+      "n": "k of n tests failing in run r",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "lần 2, cách golden 22 phút (ca I-15) — ĐƠN VỊ KHÁC bảng gộp",
+      "probe": null,
+      "macro": "numMSixShortDec"
+    },
+    "m6.short_art": {
+      "value": "31",
+      "n": "k of n tests failing in run r",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "lần 2, cách golden 22 phút — bằng chứng bảo thủ",
+      "probe": null,
+      "macro": "numMSixShortArt"
+    },
+    "m6.tests_per_run": {
+      "value": "252",
+      "n": "k of n tests failing in run r",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json · M6_20260918_v1.jsonl",
+      "conv": "126 test × 2 bộ oracle",
+      "probe": null,
+      "macro": "numMSixTestsPerRun"
+    },
+    "m7.correct": {
+      "value": "9",
+      "n": "15 đơn vị",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json (M7.tong_ket)",
+      "conv": "đúng",
+      "probe": null,
+      "macro": "numMSevenCorrect"
+    },
+    "m7.wrong": {
+      "value": "4",
+      "n": "15 đơn vị",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json (M7.tong_ket)",
+      "conv": "sai — in nguyên, gồm ô 2 và ô 12",
+      "probe": null,
+      "macro": "numMSevenWrong"
+    },
+    "m7.undecided": {
+      "value": "2",
+      "n": "15 đơn vị",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json (M7.tong_ket)",
+      "conv": "không phân định",
+      "probe": null,
+      "macro": "numMSevenUndecided"
+    },
+    "m7.total": {
+      "value": "15",
+      "n": "15 đơn vị",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json (M7.tong_ket)",
+      "conv": "mẫu số sau khi trừ A06 và thiếu lực",
+      "probe": null,
+      "macro": "numMSevenTotal"
+    },
+    "m7.excluded": {
+      "value": "11",
+      "n": "29 đơn vị in ra",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json (M7.tong_ket)",
+      "conv": "A06 loại, in nhưng không vào mẫu số",
+      "probe": null,
+      "macro": "numMSevenExcluded"
+    },
+    "m7.underpowered": {
+      "value": "3",
+      "n": "29 đơn vị in ra",
+      "ci": null,
+      "src": "docs/benchmark/M6_M7_cham_20260923.json (M7.tong_ket)",
+      "conv": "thiếu lực A04.5 (n < 35), đăng ký trước",
+      "probe": null,
+      "macro": "numMSevenUnderpowered"
+    }
+  }
+}

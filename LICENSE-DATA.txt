@@ -1,0 +1,47 @@
+LICENCES FOR THIS ARCHIVE
+=========================
+
+Two licences apply, by file type.
+
+1. MEASUREMENT DATA AND DOCUMENTATION  -- CC BY 4.0
+   Applies to: everything under measurements/ and protocol/, plus README.md,
+   EXCLUDED.md, MANIFEST.md and MANIFEST.json.
+
+   Creative Commons Attribution 4.0 International.
+   https://creativecommons.org/licenses/by/4.0/
+   You may share and adapt for any purpose, including commercially, provided you
+   give appropriate credit and indicate if changes were made.
+
+   Also applies to the synthetic speech of tier S3 (data/stt/s3/*.wav and
+   M1_s3_manifest.json). That audio was generated from preset voices of
+   VieNeu-TTS v3 Turbo (pnnbao-ump, Apache-2.0) and Kokoro-82M (hexgrad,
+   Apache-2.0); credit both models when reusing it. It contains no human
+   voice recording and no cloned voice (see EXCLUDED.md section 1b).
+
+2. SCRIPTS  -- MIT
+   Applies to: everything under scripts/ and make_package.py.
+
+   Copyright (c) 2026 Dat Lam Quoc
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+THIRD-PARTY MATERIAL
+--------------------
+freshqa.csv is redistributed from an external question set; its own licence and
+citation govern it. See protocol/PAPER-NUMBERS.md for the reference.

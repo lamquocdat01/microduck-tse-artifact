@@ -1,0 +1,48 @@
+{
+ "ngay": "2026-09-16T17:19:06+0700",
+ "may": "Windows-10-10.0.26200-SP0",
+ "python_launcher": "desktop\\.venv\\Scripts\\python.exe",
+ "plan": "200 task giả × 0,1 s",
+ "A_kill_launcher": {
+  "nhanh": "A",
+  "launcher": {
+   "pid": 2480,
+   "name": "python.exe"
+  },
+  "con": [
+   {
+    "pid": 29912,
+    "name": "python.exe"
+   }
+  ],
+  "kill_tra_ve": {
+   "popen_wait_rc": 15,
+   "giay": 0.001
+  },
+  "ban_ghi_luc_kill": 10,
+  "ban_ghi_sau_3s": 10,
+  "con_con_song_sau_3s": [],
+  "ban_ghi_khi_con_tu_ket_thuc": 10
+ },
+ "B_kill_ca_cay": {
+  "nhanh": "B",
+  "launcher": {
+   "pid": 30408,
+   "name": "python.exe"
+  },
+  "con": [
+   {
+    "pid": 26712,
+    "name": "python.exe"
+   }
+  ],
+  "kill_tra_ve": {
+   "popen_wait_rc": 15,
+   "giay": 0.001
+  },
+  "ban_ghi_luc_kill": 10,
+  "ban_ghi_sau_3s": 10,
+  "con_con_song_sau_3s": [],
+  "ban_ghi_khi_con_tu_ket_thuc": 10
+ }
+}

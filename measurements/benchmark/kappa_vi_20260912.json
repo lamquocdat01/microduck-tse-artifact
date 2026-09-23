@@ -1,0 +1,70 @@
+{
+  "ngay": "2026-09-12",
+  "loai": "intra-rater test-retest, cung mot nguoi gan hai luot",
+  "n_cap": 50,
+  "kappa_nhi_phan": 0.88,
+  "ktc95": [
+    0.7209,
+    1.0
+  ],
+  "bootstrap": {
+    "B": 10000,
+    "seed": 20260912,
+    "mau_dung_duoc": 10000
+  },
+  "dong_thuan_tho": 0.94,
+  "bien_vong1": {
+    "can_tra": 25,
+    "khong": 25
+  },
+  "bien_vong2": {
+    "can_tra": 26,
+    "khong": 24
+  },
+  "bat_dong": [
+    {
+      "id": "Q016",
+      "fact_type": "slow-changing",
+      "vong1": 1,
+      "vong2": 0
+    },
+    {
+      "id": "Q027",
+      "fact_type": "never-changing",
+      "vong1": 0,
+      "vong2": 1
+    },
+    {
+      "id": "Q036",
+      "fact_type": "never-changing",
+      "vong1": 0,
+      "vong2": 1
+    }
+  ],
+  "bat_dong_theo_fact_type": {
+    "fast-changing": {
+      "bat_dong": 0,
+      "tong": 15
+    },
+    "never-changing": {
+      "bat_dong": 2,
+      "tong": 25
+    },
+    "slow-changing": {
+      "bat_dong": 1,
+      "tong": 10
+    }
+  },
+  "tien_de_sai": {
+    "vong1_xep": 10,
+    "vong2_nhan_ra": 6,
+    "vong2_bo_sot": 4,
+    "vong2_bo_sot_id": [
+      "Q011",
+      "Q041",
+      "Q050",
+      "Q060"
+    ],
+    "vong2_them": 0
+  }
+}

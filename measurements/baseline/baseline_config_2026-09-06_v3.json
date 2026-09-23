@@ -1,0 +1,127 @@
+{
+  "snapshot_name": "baseline_config_2026-09-06_v3",
+  "purpose": "Control condition desktop-only v3 — sau ADR-004 (gemini-audio mac dinh) va ADR-009 (cong tin cay + fallback 4 s)",
+  "created_at": "2026-09-06T15:52:31+07:00",
+  "changes_vs_v2": {
+    "env": {
+      "STT_BACKEND": "phowhisper -> gemini-audio"
+    },
+    "code": [
+      "ADR-004: gemini-audio la backend mac dinh; Whisper+PhoWhisper giu lam duong lui",
+      "ADR-009: cong tin cay [stt_lang_p <= 0.3 hoac low_confidence] -> hoi lai, ghi asked_again, KHONG tinh e2e",
+      "ADR-009: han 4 s canh phia client [HTTP de 10 s vi API tu choi deadline ngan hon]; loi/qua han -> Whisper cho dung luot do, ghi stt_fallback",
+      "scoring.normalize: so viet bang chu = chu so, ten rieng co dau = khong dau",
+      "rescore_utts.py: --order block|round, --local-candidates"
+    ],
+    "model": "KHÔNG đổi"
+  },
+  "env": {
+    "GEMINI_API_KEY": "<redacted>",
+    "DUCK_PROFILE": "duck",
+    "DUCK_LANGUAGE": "vi+en",
+    "DUCK_BODY": "avatar",
+    "MICRODUCK_WS_URL": "ws://microduck.local:8000/agent",
+    "LLM_BACKEND": "gemini",
+    "GEMINI_MODEL": "gemini-2.5-flash",
+    "LOCAL_LLM_BASE_URL": "http://127.0.0.1:11434/v1",
+    "LOCAL_LLM_MODEL": "qwen3:4b",
+    "STT_BACKEND": "gemini-audio",
+    "STT_MODEL_VI": "models/phowhisper-base-ct2",
+    "STT_MODEL": "base",
+    "TTS_VOICE_VI": "Trúc Ly",
+    "TTS_VOICE_EN": "af_heart",
+    "TTS_BACKEND": "vieneu",
+    "AUDIO_INPUT_DEVICE": "",
+    "AUDIO_OUTPUT_DEVICE": "",
+    "GEMINI_LIVE_MODEL": "gemini-3.1-flash-live-preview",
+    "DAILY_MINUTES_PER_BROWSER": "20",
+    "TOKEN_TTL_MINUTES": "<redacted>"
+  },
+  "config_resolved": {
+    "stt_backend_raw": "gemini-audio",
+    "stt_model": "base",
+    "stt_model_vi": "models/phowhisper-base-ct2",
+    "llm_backend": "gemini",
+    "gemini_model": "gemini-2.5-flash",
+    "gemini_api_key_present": true,
+    "tts_backend": "vieneu",
+    "tts_voice_vi": "Trúc Ly",
+    "tts_voice_en": "af_heart",
+    "language": "vi+en",
+    "profile": "duck",
+    "body": "avatar",
+    "latency_log": "D:\\THS Programing\\Microduck\\desktop\\logs\\latency.jsonl"
+  },
+  "python": {
+    "version": "3.11.9",
+    "implementation": "CPython",
+    "executable": "D:\\THS Programing\\Microduck\\desktop\\.venv\\Scripts\\python.exe"
+  },
+  "packages": {
+    "speech-to-speech": "0.2.12",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "torch": "2.14.0",
+    "vieneu": "3.4.0",
+    "kokoro": "0.9.4",
+    "google-genai": "2.22.0",
+    "python-dotenv": "1.2.3",
+    "numpy": "2.4.6",
+    "transformers": "5.16.1",
+    "soundfile": "0.14.0",
+    "onnxruntime": "1.29.0",
+    "sounddevice": "0.5.6"
+  },
+  "system": {
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+    "cpu_cores": 4,
+    "cpu_threads": 8,
+    "cpu_max_clock_mhz": 2995,
+    "ram_gb": 31.71,
+    "os": "Microsoft Windows 11 Pro",
+    "os_version": "10.0.26200",
+    "os_build": "26200",
+    "battery_status_code": 2,
+    "battery_status": "on AC (not charging / full)",
+    "ghi_chu_xung_nhip": "WMI CurrentClockSpeed KHÔNG tin cậy — xem docs/baseline/cpu_verify_2026-09-05.md"
+  },
+  "git": {
+    "commit": "f514af6a46ab1cb204ccdef8c1db0ab51d66c505",
+    "branch": "master",
+    "dirty": [
+      "M .env.example",
+      " M desktop/brain/persona.py",
+      " M desktop/handlers/stt_gemini.py",
+      " M desktop/handlers/stt_whisper.py",
+      " M desktop/pipeline.py",
+      " M desktop/scoring.py",
+      " M desktop/scripts/rescore_utts.py",
+      " M desktop/server.py",
+      " M desktop/tests/test_m2_vietnamese.py",
+      " M desktop/ui/app.js",
+      " M desktop/ui/duck-avatar.js",
+      " M desktop/ui/index.html",
+      " M docs/ADR-004-gemini-audio-stt.md",
+      " M shared/persona/duck.md",
+      "?? desktop/ui/robots/",
+      "?? docs/ADR-009-cong-tin-cay-va-fallback.md",
+      "?? docs/baseline/latency_desktop_baseline_2026-09-06_v3.jsonl"
+    ]
+  },
+  "run": {
+    "version": "v3",
+    "sets": [
+      "vi",
+      "en",
+      "mix"
+    ],
+    "turns_per_set": 30,
+    "total_turns": 90,
+    "prompt_cycling": "5 câu lặp 6 vòng",
+    "bench_memory": "logs/bench_memory.v1.json, xoá sạch trước MỖI bộ",
+    "warmup": "mix 2 lượt, không tính",
+    "mic": "giả lập — câu mẫu tổng hợp bằng chính TTS của hệ thống rồi bơm vào queue VAD",
+    "harness": "giống v1 (thread rút loa liên tục, finish() chờ t_audio_out, nghỉ 1,0 s)",
+    "utt_dir": "None cho bench — audio bench dựng lại được từ PROMPTS"
+  }
+}

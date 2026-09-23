@@ -1,0 +1,2990 @@
+{
+ "built": "2026-09-23T16:35:25+0700",
+ "n_files": 425,
+ "files": [
+  {
+   "path": "measurements/benchmark/cau_kep_20260913_v1.jsonl",
+   "bytes": 15301,
+   "sha256": "6be1942b3883f4af24847c6d2cfa9101c8b266c7de8a10e68ebd9cf25fb5ddc1",
+   "from": "docs/benchmark/cau_kep_20260913_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/DEVICE-FLOOR.md",
+   "bytes": 43237,
+   "sha256": "98231d221fa4eaaca761737310198a32843899426c68cfe1d0bbc51c931e5a68",
+   "from": "docs/benchmark/DEVICE-FLOOR.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/device_floor_20260906_v1.jsonl",
+   "bytes": 71050,
+   "sha256": "7d9129e24ef798fa7ce730c2608e3717630e141a96c950162ccb79e0d7dacc4a",
+   "from": "docs/benchmark/device_floor_20260906_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/device_floor_20260909_v1.jsonl",
+   "bytes": 184351,
+   "sha256": "783d4c05db95e20ee95b39d4d996aabdbee0f4d9ad2b668bdb9d0ef204da898a",
+   "from": "docs/benchmark/device_floor_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/device_floor_20260910_v1.jsonl",
+   "bytes": 17926,
+   "sha256": "b99a0e0e69cf70a5d54157a8ebbda65ef33fe1d0ffd01c1be384b217eaa20dfc",
+   "from": "docs/benchmark/device_floor_20260910_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/devout_20260910_p1.json",
+   "bytes": 8293,
+   "sha256": "5f4ee6fa2a10242cb4df41ff13c3f8eca702a86d0f2c1b0d691a70871f5182eb",
+   "from": "docs/benchmark/devout_20260910_p1.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/devout_20260910_p2.json",
+   "bytes": 8451,
+   "sha256": "834cab7f00213b6fdb31e63fdc6737a1d8deff14c2d9cf06c0f205eda1f78e27",
+   "from": "docs/benchmark/devout_20260910_p2.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/devout_20260910_p3.json",
+   "bytes": 7065,
+   "sha256": "4d3b342329be182591c88f1f6c71d3410adc7b82bc05b0f525bd0d2a07f0c58e",
+   "from": "docs/benchmark/devout_20260910_p3.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/devout_20260910_tts_ref.jsonl",
+   "bytes": 1932,
+   "sha256": "12c04dd0576ca11ac7ffa8bede10d59622c0dae0ba142fe55c452a2ad726db7c",
+   "from": "docs/benchmark/devout_20260910_tts_ref.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/freshqa.csv",
+   "bytes": 202337,
+   "sha256": "065da2a5b6894894dc25c594552f0593254c779f7871d9b9bfc2694522d4c68c",
+   "from": "docs/benchmark/freshqa.csv",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/grounding_20260909_v1.jsonl",
+   "bytes": 17120,
+   "sha256": "0e2d6a720dbf0f9a686ed2813181edc473e8363e08c6eaa07636e6b9a03e4ead",
+   "from": "docs/benchmark/grounding_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/grounding_stability_20260909_run1.jsonl",
+   "bytes": 45997,
+   "sha256": "ba2ac434c37a8e9c900c88b819d67c9176590a94dcb30466c2beaeafed733b14",
+   "from": "docs/benchmark/grounding_stability_20260909_run1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/grounding_stability_20260910_run2.jsonl",
+   "bytes": 54382,
+   "sha256": "cc97189a67809b2b191f1bf6421b0bf069442e0cbfdb1a26cf3dbe9ec255267e",
+   "from": "docs/benchmark/grounding_stability_20260910_run2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/kappa_vi_20260912.json",
+   "bytes": 1242,
+   "sha256": "a9d884aeefb3885eb491e8bea1ad0bca96f8f263586494dd1bff04abc8e847aa",
+   "from": "docs/benchmark/kappa_vi_20260912.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/LABELING-PROTOCOL.md",
+   "bytes": 7456,
+   "sha256": "6019818baf0954ece91a703fe6567dd330a136e21211b53db1a137ad25802719",
+   "from": "docs/benchmark/LABELING-PROTOCOL.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/latency_es3c28p_20260910_v1.jsonl",
+   "bytes": 30376,
+   "sha256": "b75b1fc2156049930226586a128bfc694f302db9cdbd11ab9ebc91a05ce25ec7",
+   "from": "docs/benchmark/latency_es3c28p_20260910_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/latency_es3c28p_hwtest_20260908.jsonl",
+   "bytes": 21823,
+   "sha256": "4d2ec064ad85a4cb4cc99e1723395f8621fe440f0604ab237be2403c87f7559b",
+   "from": "docs/benchmark/latency_es3c28p_hwtest_20260908.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_ab_refusal_20260909_v1.jsonl",
+   "bytes": 138641,
+   "sha256": "973a534ba191c7ff2ea14efb0f9dff6e975c31b52d0fc975cd5a67da161235bb",
+   "from": "docs/benchmark/lookup_ab_refusal_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_accuracy_20260909_v2.jsonl",
+   "bytes": 69006,
+   "sha256": "d4850938490087818df340eccfb3274cc4630c7d7b4306e46a31563c75c4c699",
+   "from": "docs/benchmark/lookup_accuracy_20260909_v2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_determinism_20260909_v1.jsonl",
+   "bytes": 343363,
+   "sha256": "9f5037e5fbe0dfdf4a26309b30d79bd92dce1ca2b7c883f6cef91887279f1852",
+   "from": "docs/benchmark/lookup_determinism_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_flag_20260909_v1.jsonl",
+   "bytes": 18946,
+   "sha256": "60b4562478ad0d2e26ed6fc36a44a6f464063aeb45cd67d07290e1f9c5971020",
+   "from": "docs/benchmark/lookup_flag_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_history_20260909_v1.jsonl",
+   "bytes": 56237,
+   "sha256": "c508dbeb8e268efe3dcb76d56bdb59d5a021a13cbdc27b19523f834c5d383261",
+   "from": "docs/benchmark/lookup_history_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_history_bang6_20260909_v1.jsonl",
+   "bytes": 81234,
+   "sha256": "36539592246b7f5c7199af12d07d0b74d23db3f5888159360d5fa2c467ced9bf",
+   "from": "docs/benchmark/lookup_history_bang6_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_history_neutral_20260909_v1.jsonl",
+   "bytes": 108217,
+   "sha256": "9fdb29fbcd2338492e54cec07198cbed12f6ce4532f62eb2adeaadbc205f4901",
+   "from": "docs/benchmark/lookup_history_neutral_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_history_neutral_am_20260909_v1.jsonl",
+   "bytes": 141366,
+   "sha256": "e9b50e1ac3818688b005659ccc52a6d14ae1801fcdf5e7bafd2bfcf4fe790e05",
+   "from": "docs/benchmark/lookup_history_neutral_am_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_history_neutral_am_20260909_v1_b2.jsonl",
+   "bytes": 84965,
+   "sha256": "156cafe046115ad3de57b9229d3b39a37b4f1e327a49441a460a29acddbe704f",
+   "from": "docs/benchmark/lookup_history_neutral_am_20260909_v1_b2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_rule_lang_20260909_v1.jsonl",
+   "bytes": 100610,
+   "sha256": "415b03f76910ffd80c4e4fbd895fd3cca8a2538c3aa92dc1fb5f8d31580a7eb6",
+   "from": "docs/benchmark/lookup_rule_lang_20260909_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_rule_lang_20260909_v2.jsonl",
+   "bytes": 151268,
+   "sha256": "6cf77c99404f804f18ecb5c598726a6ad4d61a5538a9f77c546b599349f960b0",
+   "from": "docs/benchmark/lookup_rule_lang_20260909_v2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl",
+   "bytes": 325160,
+   "sha256": "542f8c2f8b93811ac0a7083069d30ec86e502398e71078ca3b1abea752262159",
+   "from": "docs/benchmark/lookup_rule_lang_20260909_v2_b2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_rule_lang_20260910_v3.jsonl",
+   "bytes": 284410,
+   "sha256": "8df01be0eb7129550ed453196965bf2f512d686c6b3bddefec249c69f3e40e93",
+   "from": "docs/benchmark/lookup_rule_lang_20260910_v3.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_set_v1.jsonl",
+   "bytes": 40092,
+   "sha256": "0a33350687d7ff5b7e8ce589ee2623a25de4b2a0ccab99542bd3ee7a57f28288",
+   "from": "docs/benchmark/lookup_set_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_set_vi_blind.csv",
+   "bytes": 4723,
+   "sha256": "1c90fa46744cc6dbfd16b5419947254cdff9ceaa470de37092e5078fd6831bc9",
+   "from": "docs/benchmark/lookup_set_vi_blind.csv",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/lookup_set_vi_blind_key.csv",
+   "bytes": 3147,
+   "sha256": "c0472f628371e41ee028532acf15060d88a55ee10e7e5ef3941da03c6d60ad88",
+   "from": "docs/benchmark/lookup_set_vi_blind_key.csv",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M1_20260916_v1.errors.jsonl",
+   "bytes": 1176,
+   "sha256": "28285a90a3e74bc36513dcbc8fef77ed96d5472950628b92213200b0efc79da7",
+   "from": "docs/benchmark/M1_20260916_v1.errors.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M1_20260916_v1.jsonl",
+   "bytes": 2012246,
+   "sha256": "43e76ef10dab6b3b6e631a9b882fe53356ad254a81723c058832b3eed9105bf2",
+   "from": "docs/benchmark/M1_20260916_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M1_20260916_v1.manifest.jsonl",
+   "bytes": 23754,
+   "sha256": "06a02dfbdf02e35048dd32a34457ee3e1517a41fc6f2a9b2ea1fadfc770a1ebf",
+   "from": "docs/benchmark/M1_20260916_v1.manifest.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M1_RECORDING_PROTOCOL.md",
+   "bytes": 5951,
+   "sha256": "e77c01d5e85aa4a9fc74cf18ee9c2224aea55a148e43adf9f91a98f77b0fa28d",
+   "from": "docs/benchmark/M1_RECORDING_PROTOCOL.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M1_rv2_sentences.json",
+   "bytes": 2840,
+   "sha256": "4128b3518d712c528be503e36f48c876a46ec09dd2b9492d68082dda7807feeb",
+   "from": "docs/benchmark/M1_rv2_sentences.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M1_s3_manifest.json",
+   "bytes": 122910,
+   "sha256": "99c10cbe220daca04a8008698164f33d1b30f36e15c37d846aa0c1a069fbcc2e",
+   "from": "docs/benchmark/M1_s3_manifest.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M2_20260916_v1.jsonl",
+   "bytes": 804609,
+   "sha256": "56c125565303dc472d4a2e296e306887640b42ace420b51c1416a424fc90e573",
+   "from": "docs/benchmark/M2_20260916_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M2_20260916_v1.manifest.jsonl",
+   "bytes": 4247,
+   "sha256": "8b345f39d838096bdcc2a20dfc30173cfecf4181b173fc3d896b2cf3b148b1a0",
+   "from": "docs/benchmark/M2_20260916_v1.manifest.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M3_20260916_v1.errors.jsonl",
+   "bytes": 524,
+   "sha256": "efc6246cbf0e8cc2046a15151ae44ad16e8a4536502abfba6631f15aad8f2099",
+   "from": "docs/benchmark/M3_20260916_v1.errors.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M3_20260916_v1.jsonl",
+   "bytes": 811157,
+   "sha256": "e1bfd9493b6f109f3a3dbd42099d0ef544b44077c5ed73d4875c69498082965e",
+   "from": "docs/benchmark/M3_20260916_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M3_20260916_v1.manifest.jsonl",
+   "bytes": 4185,
+   "sha256": "ad1ef053b2f5a2bc4e1e42a851df53f640b3830dd509fe5233b2733cb6f7602d",
+   "from": "docs/benchmark/M3_20260916_v1.manifest.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M4_20260916_v1.jsonl",
+   "bytes": 248319,
+   "sha256": "9b02ef895077e28eea5fb04ef20047a2ed2c8e8d1cd506728bbcdd01eaf86793",
+   "from": "docs/benchmark/M4_20260916_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M4_20260916_v1.manifest.jsonl",
+   "bytes": 4041,
+   "sha256": "8ab99a20df33ddb5cee912098735662825e826dc29897a13c47ebc973f1f3fad",
+   "from": "docs/benchmark/M4_20260916_v1.manifest.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M6_20260918_v1.errors.jsonl",
+   "bytes": 1061,
+   "sha256": "4bb5f23289bf27ba8fc3d16b3f0cd684747d60794e038e797953487ac22a8e61",
+   "from": "docs/benchmark/M6_20260918_v1.errors.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M6_20260918_v1.jsonl",
+   "bytes": 796997,
+   "sha256": "b73e09f98c42be8620c28e033ed3bf12dbeb81a4dc7e686a331f6ff3e63fe904",
+   "from": "docs/benchmark/M6_20260918_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M6_20260918_v1.manifest.jsonl",
+   "bytes": 34363,
+   "sha256": "2e00ae80c86ecca817570db97ea2cc374d41e2c4385775c5444cfbb77fd2a5c2",
+   "from": "docs/benchmark/M6_20260918_v1.manifest.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/M6_M7_cham_20260923.json",
+   "bytes": 17826,
+   "sha256": "79eef3a74b99ff20b7d9290f75de1eeb2101269943934fd72a2112b4465a60e8",
+   "from": "docs/benchmark/M6_M7_cham_20260923.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914-3me.md",
+   "bytes": 2406,
+   "sha256": "a476c2c2125afc7a7b7a9612cc30f5f5548f7eacf2689bb0176997b9a791d88c",
+   "from": "docs/benchmark/MAIL-QA-20260914-3me.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914-3me_v2.md",
+   "bytes": 2316,
+   "sha256": "b7321dbaa91dd20196f6ea8e516604f6cc77df846149ee9807e86e6567596b37",
+   "from": "docs/benchmark/MAIL-QA-20260914-3me_v2.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914.md",
+   "bytes": 12912,
+   "sha256": "4eebd0efcded5c1629d50e8e63abeb643d3dab12cf834f1090b1e3a248571682",
+   "from": "docs/benchmark/MAIL-QA-20260914.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914_v2.md",
+   "bytes": 13060,
+   "sha256": "a930099a1e562a3d477f6668f5094b2a71234a7be3eec13ef2a683e8b2664b75",
+   "from": "docs/benchmark/MAIL-QA-20260914_v2.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914_v3.md",
+   "bytes": 10167,
+   "sha256": "9945501b54d2c8c928985a787e5be269b2069785b26e3e4de936557416f9e732",
+   "from": "docs/benchmark/MAIL-QA-20260914_v3.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914_v4.md",
+   "bytes": 10121,
+   "sha256": "0a2cf41b4d6bfbe63fd78e0b17b0a991736584fa24e54c41124674414c013bf9",
+   "from": "docs/benchmark/MAIL-QA-20260914_v4.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/MAIL-QA-20260914_v5.md",
+   "bytes": 9271,
+   "sha256": "56674719bfbe01120147e903005adf36d4485a71cc749f46b5a94f97c547e0ce",
+   "from": "docs/benchmark/MAIL-QA-20260914_v5.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/mail_qa_20260914_v1.jsonl",
+   "bytes": 19445,
+   "sha256": "b2491cdd504e18542bd37b4533d41b51bad0a62695b63df6ae3212b3a2736191",
+   "from": "docs/benchmark/mail_qa_20260914_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/mail_qa_20260914_v2.jsonl",
+   "bytes": 20155,
+   "sha256": "0862dfdeca1a877b3467f75dc247c2f7e8074c73582dadcd0c3ed3205dbec567",
+   "from": "docs/benchmark/mail_qa_20260914_v2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/mail_qa_20260914_v3.jsonl",
+   "bytes": 20389,
+   "sha256": "9ca482613017b0e2dfcca6567e9deb4b22fae532e5ff16d4c4da781372021c5a",
+   "from": "docs/benchmark/mail_qa_20260914_v3.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/mail_qa_20260914_v4.jsonl",
+   "bytes": 20653,
+   "sha256": "096710f43303f49a98adf62fbaca3b4d265b3dbd9a2d4d2c2a24d40b2d3eee5f",
+   "from": "docs/benchmark/mail_qa_20260914_v4.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/mail_qa_20260914_v5.jsonl",
+   "bytes": 19767,
+   "sha256": "b5f144d5c5c259cdc958f60e6a54b17cef937279f410d5656583b0a85c224335",
+   "from": "docs/benchmark/mail_qa_20260914_v5.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/PREREG_M1-M4_20260916.md",
+   "bytes": 65056,
+   "sha256": "8c70598237b7065aa3b492fea5bab9ce10cfc42c538baf2e9c99904828445a99",
+   "from": "docs/benchmark/PREREG_M1-M4_20260916.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/probe_launcher_kill_20260916.json",
+   "bytes": 923,
+   "sha256": "f2af913b61c2c640b9e30ed4cb0feef1f96e5fc8ba2ab5f809a071acc67d486c",
+   "from": "docs/benchmark/probe_launcher_kill_20260916.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/PROTOCOL.md",
+   "bytes": 13754,
+   "sha256": "cea62baeb90fcb71a6d5c6910b06236d42289d06b4cf0c90c347dd6c78a0ce91",
+   "from": "docs/benchmark/PROTOCOL.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_074501_pytest.txt",
+   "bytes": 2950,
+   "sha256": "4f66676f6cbd5605e2fc260ba162ee667ba94b20c6ada785e82c734481adfa6f",
+   "from": "docs/benchmark/runner/commit_safe_20260917_074501_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_074643_pytest.txt",
+   "bytes": 2950,
+   "sha256": "990336893dae744d7a08a940869c914dab19946eba0c7727f2e26930b1101d1c",
+   "from": "docs/benchmark/runner/commit_safe_20260917_074643_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_074747_pytest.txt",
+   "bytes": 2950,
+   "sha256": "33de8d917f81cf3aba1e86ea4df1295f8bce3e8643df34c87904dfb0f8c5a7eb",
+   "from": "docs/benchmark/runner/commit_safe_20260917_074747_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_080113_pytest.txt",
+   "bytes": 2950,
+   "sha256": "3267caf926905b566b58e443208940e63a12c15861ebdb44cd5e6869040a8a75",
+   "from": "docs/benchmark/runner/commit_safe_20260917_080113_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_080308_pytest.txt",
+   "bytes": 2950,
+   "sha256": "c7f91e9a1e75d2d89f8f9060584d5bc488da8b0d1f19b421b8368ab7e1cb13c8",
+   "from": "docs/benchmark/runner/commit_safe_20260917_080308_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_080551_pytest.txt",
+   "bytes": 2950,
+   "sha256": "09da947c78c905d4670eb1e4ce75f71a3c345a7849d3b9dc31c231702e9e06a8",
+   "from": "docs/benchmark/runner/commit_safe_20260917_080551_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_081120_pytest.txt",
+   "bytes": 2950,
+   "sha256": "b2adfe4bfc3d62b814b6e536062494d088d2bf81e2c9741cd3a5dc6a9d56f412",
+   "from": "docs/benchmark/runner/commit_safe_20260917_081120_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_091116_pytest.txt",
+   "bytes": 2950,
+   "sha256": "3628721a3e547be51e22fa7e3672baa99f28efd5d921dd0b1a95d6f1a783d4bc",
+   "from": "docs/benchmark/runner/commit_safe_20260917_091116_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_092619_pytest.txt",
+   "bytes": 2950,
+   "sha256": "37a88058b5a9557e6bb0e1272a1f62f41f78d0de4828e093391d790dd9d745ab",
+   "from": "docs/benchmark/runner/commit_safe_20260917_092619_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_092817_pytest.txt",
+   "bytes": 2950,
+   "sha256": "6e50f78fed8f1d8d4b4986c47f593254ac68fbf92177fecd55bc46171f851765",
+   "from": "docs/benchmark/runner/commit_safe_20260917_092817_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_110228_pytest.txt",
+   "bytes": 2950,
+   "sha256": "daad59da2bc9b45dc0230ea7f47cb890fcbb4d0deadf6913781b50ca8e642524",
+   "from": "docs/benchmark/runner/commit_safe_20260917_110228_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_110545_pytest.txt",
+   "bytes": 2950,
+   "sha256": "3ce5fc9d4a595c25389020d8fff886bde309d75c5a9abedc66f7fa14b5356ece",
+   "from": "docs/benchmark/runner/commit_safe_20260917_110545_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_111322_pytest.txt",
+   "bytes": 2950,
+   "sha256": "dd79c2e3a0e4490e711b0dbeb23b091c8bf82aa726bc054648a52cd808cebfa5",
+   "from": "docs/benchmark/runner/commit_safe_20260917_111322_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_113229_pytest.txt",
+   "bytes": 2950,
+   "sha256": "43a041c4c20d374b66c949cb20d8dcd4bf2bd097b40fc4c1c0c193bb6d41c71e",
+   "from": "docs/benchmark/runner/commit_safe_20260917_113229_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_113839_pytest.txt",
+   "bytes": 2950,
+   "sha256": "bf55b9db56941ba859eb440c5ef213ddde87c0ff083a15e3db3585f75974cc80",
+   "from": "docs/benchmark/runner/commit_safe_20260917_113839_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_115026_pytest.txt",
+   "bytes": 2950,
+   "sha256": "5af1d11c772e1b49c960553150578ebe1ff9114820aa8d0881453597530af3b4",
+   "from": "docs/benchmark/runner/commit_safe_20260917_115026_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_122212_pytest.txt",
+   "bytes": 2950,
+   "sha256": "bb1fc4582e01ecda25d31b9e929104b432aa903edb6a4362477c75d1f1a978dd",
+   "from": "docs/benchmark/runner/commit_safe_20260917_122212_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_144631_pytest.txt",
+   "bytes": 5944,
+   "sha256": "8ff27707d6d62b2ae2e7bfbc20726f22ab37b156f6428bacaf02cd5ba8907b0e",
+   "from": "docs/benchmark/runner/commit_safe_20260917_144631_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260917_144938_pytest.txt",
+   "bytes": 2950,
+   "sha256": "74c12d444e7401f81da1da6c64f4c02f09f4ff9c7f2bf2feb6ac1389f6e80848",
+   "from": "docs/benchmark/runner/commit_safe_20260917_144938_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260918_120433_pytest.txt",
+   "bytes": 2950,
+   "sha256": "d744e34c3e1c0957efd117f448b867c90f551fc3962aa66c5c0b0eb19f639053",
+   "from": "docs/benchmark/runner/commit_safe_20260918_120433_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260918_214017_pytest.txt",
+   "bytes": 2950,
+   "sha256": "ac942a92f222dac20318c13444d8983bb54bd98796daf2568e8db6538baa7e33",
+   "from": "docs/benchmark/runner/commit_safe_20260918_214017_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260918_214210_pytest.txt",
+   "bytes": 2950,
+   "sha256": "5b1a48f8ebd72599835eae9904a6ccc3195bf38e7b8ed000cd5b3a8a25e1b942",
+   "from": "docs/benchmark/runner/commit_safe_20260918_214210_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260918_214713_pytest.txt",
+   "bytes": 2950,
+   "sha256": "c33660213b24642cbc6901b704f7f64e97da805923823e2ef941c02f9be543d8",
+   "from": "docs/benchmark/runner/commit_safe_20260918_214713_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260919_152956_pytest.txt",
+   "bytes": 3112,
+   "sha256": "83d4b84f3d40ee6002efc57b459c2d254769820b61c28b1da4b0693184120613",
+   "from": "docs/benchmark/runner/commit_safe_20260919_152956_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260919_155113_pytest.txt",
+   "bytes": 3112,
+   "sha256": "d920d5a28309c273494c7df855cfd50dcae7ea995eb104b2a447ce8de283fa6b",
+   "from": "docs/benchmark/runner/commit_safe_20260919_155113_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260919_195154_pytest.txt",
+   "bytes": 3112,
+   "sha256": "33fc678a3e05eef448bd5660c7e64278fb05c8db61c33f3f77f23d8bcc352834",
+   "from": "docs/benchmark/runner/commit_safe_20260919_195154_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260919_200611_pytest.txt",
+   "bytes": 3112,
+   "sha256": "d8e514bac828b6b2afb03d50926bf2c6c2362a4d26a0bfec29ca8fa907e80ea0",
+   "from": "docs/benchmark/runner/commit_safe_20260919_200611_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260919_202240_pytest.txt",
+   "bytes": 3274,
+   "sha256": "956a654dd889d63cb402b54f43e01ea64b06b2fcccf3a2a1e57b521b75748044",
+   "from": "docs/benchmark/runner/commit_safe_20260919_202240_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260919_224206_pytest.txt",
+   "bytes": 3274,
+   "sha256": "30b4c77294793d8fb958ab1925460b388a318a583b485e5a2b2fddc8b3ef89ff",
+   "from": "docs/benchmark/runner/commit_safe_20260919_224206_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260920_215647_pytest.txt",
+   "bytes": 3112,
+   "sha256": "b3ee5013722e4cdd827748e17f7ed4124614e15a76fee574c4950c9fa6d0687b",
+   "from": "docs/benchmark/runner/commit_safe_20260920_215647_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_141358_pytest.txt",
+   "bytes": 3112,
+   "sha256": "8b410a8faf7655820aeb4544d8e074076e44b77e39bb7d6b963707b785ca9df8",
+   "from": "docs/benchmark/runner/commit_safe_20260923_141358_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_141829_pytest.txt",
+   "bytes": 3112,
+   "sha256": "c674c0111d202b7252ec620c18a48e88a33a0bb59ab546e8a220461adb540ee1",
+   "from": "docs/benchmark/runner/commit_safe_20260923_141829_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_142818_pytest.txt",
+   "bytes": 3112,
+   "sha256": "2acf877a97f55a6dfd719430aefddea1631eeb30e6e7acc1bedb214516b3866a",
+   "from": "docs/benchmark/runner/commit_safe_20260923_142818_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_143238_pytest.txt",
+   "bytes": 3112,
+   "sha256": "70e8df153db08a6694b8c35300a1635ed2672634303ab974bd97c5216b2166df",
+   "from": "docs/benchmark/runner/commit_safe_20260923_143238_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_143712_pytest.txt",
+   "bytes": 3112,
+   "sha256": "0565b7e42ebf10aecdc20d3752699dc36f08ee82b22e36339648e382657fa630",
+   "from": "docs/benchmark/runner/commit_safe_20260923_143712_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_153133_pytest.txt",
+   "bytes": 3112,
+   "sha256": "c0f03b3c9e662f2cc7a8de58036ffd3e7ac661e1e0f7fcc2f7a5fa416cbec74d",
+   "from": "docs/benchmark/runner/commit_safe_20260923_153133_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_154031_pytest.txt",
+   "bytes": 7466,
+   "sha256": "467f11a78665b0f981c25dc1026cf711978518a27826e48a3f6675fd2e51d31a",
+   "from": "docs/benchmark/runner/commit_safe_20260923_154031_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_154310_pytest.txt",
+   "bytes": 3112,
+   "sha256": "3d169e06e51f13bd80b556bc549be396a0276b3948112e8bf9d44960e80f1b7a",
+   "from": "docs/benchmark/runner/commit_safe_20260923_154310_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/commit_safe_20260923_154511_pytest.txt",
+   "bytes": 3112,
+   "sha256": "e674c5718b928949dc32c68e6ac839d1e35847a8ca4988c18fe96dd0cdc21896",
+   "from": "docs/benchmark/runner/commit_safe_20260923_154511_pytest.txt",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/ngoai_runner/grounding_20260916_v1_SU_CO_17h17.jsonl",
+   "bytes": 15141,
+   "sha256": "3cf0d30b1d9f7f76fa7e106f6654bcb7f38dfbc49efd80b29df0eb52b4222bff",
+   "from": "docs/benchmark/runner/ngoai_runner/grounding_20260916_v1_SU_CO_17h17.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/plan.json",
+   "bytes": 2941629,
+   "sha256": "ae3c155cc538d708e556ed5fad93c60917749f771bd92d8b2332934f82a9bb6c",
+   "from": "docs/benchmark/runner/plan.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/runner/status_log.md",
+   "bytes": 18522,
+   "sha256": "4bfaf0d6fd2d34b77444b3b686db661e293d8c952c8a0e086ffda4861369d9d9",
+   "from": "docs/benchmark/runner/status_log.md",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_determinism_20260910_v2.jsonl",
+   "bytes": 60319,
+   "sha256": "2dad355e83936eace03d5611042ac51eb15000450400a8c26202375e2055f3ec",
+   "from": "docs/benchmark/stt_determinism_20260910_v2.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_determinism_20260910_v2_doichung_rong.jsonl",
+   "bytes": 60276,
+   "sha256": "baec25caf3425725ddda6e8bfdb4ca4ab94952adf58d4eb1eae1fd3ce970afce",
+   "from": "docs/benchmark/stt_determinism_20260910_v2_doichung_rong.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_hosted_repeat_20260910_v1.jsonl",
+   "bytes": 23470,
+   "sha256": "d396c364ed8d561ae34fd62baa400ebc43fd819d0a39fcb8c2ae4b2a8f895d97",
+   "from": "docs/benchmark/stt_hosted_repeat_20260910_v1.jsonl",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_realvoice_20260904_scored.json",
+   "bytes": 14350,
+   "sha256": "eee4f5b17260932892cb39e76322a902f49563b3919f073d91b9cb43e5744a05",
+   "from": "docs/benchmark/stt_realvoice_20260904_scored.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_rescore_20260906_v2.json",
+   "bytes": 63057,
+   "sha256": "2ca132e613620d65cafc8ac605fcdbb94dcede27db7014877a70e3bbe7be4bab",
+   "from": "docs/benchmark/stt_rescore_20260906_v2.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_rescore_20260906_v3.json",
+   "bytes": 95561,
+   "sha256": "1eb46b9a5d11020672689ffdeebb2382415be0821e9366be1a1590e298d1a202",
+   "from": "docs/benchmark/stt_rescore_20260906_v3.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_rescore_20260906_v3_fixed.json",
+   "bytes": 94904,
+   "sha256": "0bb67c2ecf4d12701ee1479e9dac4c2b17c17bdf176a08a54138a856ef1d861c",
+   "from": "docs/benchmark/stt_rescore_20260906_v3_fixed.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/benchmark/stt_rescore_20260907_v4_owner.json",
+   "bytes": 113190,
+   "sha256": "6d072f374c3648d297d9bbe1a1083498c81082d646d64ab6077e8d3d28cc2e5c",
+   "from": "docs/benchmark/stt_rescore_20260907_v4_owner.json",
+   "group": "mọi mẻ đo vào bài: thiết bị, STT, định tuyến, grounding"
+  },
+  {
+   "path": "measurements/baseline/baseline_config_2026-09-05_v0.json",
+   "bytes": 3158,
+   "sha256": "b13d674f5b49d9421cb232dddbaa65fe02342e3fa6f22db3a8d4954e96cb03b1",
+   "from": "docs/baseline/baseline_config_2026-09-05_v0.json",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/baseline_config_2026-09-05_v1.json",
+   "bytes": 3786,
+   "sha256": "61780f7052deb76be734cdfe67fb7e2a15e36dbe3f9cb13cf6efd6999cb87da4",
+   "from": "docs/baseline/baseline_config_2026-09-05_v1.json",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/baseline_config_2026-09-06_v2.json",
+   "bytes": 4409,
+   "sha256": "5c9c37bb5f974f28b34f6a231ca2ec78510bbd7b5ded742379db0732cd30b286",
+   "from": "docs/baseline/baseline_config_2026-09-06_v2.json",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/baseline_config_2026-09-06_v3.json",
+   "bytes": 4535,
+   "sha256": "0e3a862086691ee365b019b370f44d01bdd1b323d9cd9e9cab5219f55e1b9c20",
+   "from": "docs/baseline/baseline_config_2026-09-06_v3.json",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/cpu_clock_2026-09-05_v1_WMI-KHONG-TIN-CAY.csv",
+   "bytes": 10381,
+   "sha256": "70734c516cc3732f5cf617cbd277194020f609eb5ef1d972cf545daa9c5c70ee",
+   "from": "docs/baseline/cpu_clock_2026-09-05_v1_WMI-KHONG-TIN-CAY.csv",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/cpu_verify_2026-09-05.md",
+   "bytes": 6346,
+   "sha256": "c94ce377b6568f1428f7ec17324e1ed1ee236a5c36a16add61c6e56674bcdecc",
+   "from": "docs/baseline/cpu_verify_2026-09-05.md",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/cpu_verify_perfcounter_2026-09-05.csv",
+   "bytes": 3978,
+   "sha256": "ff91228fa541670073e92c821fbdc87b625ce997bccecc7a8a7d96c4941291f3",
+   "from": "docs/baseline/cpu_verify_perfcounter_2026-09-05.csv",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/cpu_verify_wmi_2026-09-05.csv",
+   "bytes": 1158,
+   "sha256": "9bf55b328246f7646874a83632bd2d8836420c56d4803141d16d9f9ff93b4798",
+   "from": "docs/baseline/cpu_verify_wmi_2026-09-05.csv",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_baseline_2026-09-05_v0.jsonl",
+   "bytes": 61898,
+   "sha256": "411dc2628018c7a9f21c985e8dcd1cb901b2f081fc6b6891e72c566d6e8c7884",
+   "from": "docs/baseline/latency_desktop_baseline_2026-09-05_v0.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_baseline_2026-09-05_v1.jsonl",
+   "bytes": 62377,
+   "sha256": "81ee4824055447bcab52e93b4e5ebda54c11c74fe5dfd0e0aabe7acd19073d34",
+   "from": "docs/baseline/latency_desktop_baseline_2026-09-05_v1.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_baseline_2026-09-06_v2.jsonl",
+   "bytes": 70381,
+   "sha256": "78307315d4c2725c5ac3cec325f08be9e6d8977c71f6ce513f2258d4366124f7",
+   "from": "docs/baseline/latency_desktop_baseline_2026-09-06_v2.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_baseline_2026-09-06_v3.jsonl",
+   "bytes": 73505,
+   "sha256": "aafca51904dd95f8b5bfe4d0a2891d5b669ca9363cf033781338d1fc27bf3fb6",
+   "from": "docs/baseline/latency_desktop_baseline_2026-09-06_v3.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_realvoice_2026-09-05.jsonl",
+   "bytes": 20127,
+   "sha256": "f8058055fdc89970a2ce1249b59aa335a414451f18509d1647c27ba0b0d0806c",
+   "from": "docs/baseline/latency_desktop_realvoice_2026-09-05.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_realvoice_2026-09-06_v2.jsonl",
+   "bytes": 25892,
+   "sha256": "6e7b333cbb7e6b06b91974391837e2d30d6479e83bd22f27de1fbf59ef8986dd",
+   "from": "docs/baseline/latency_desktop_realvoice_2026-09-06_v2.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/latency_desktop_replay_2026-09-06_v3.jsonl",
+   "bytes": 29117,
+   "sha256": "53a0f397bb96fef081291592ee481a6d159bb061eae3129965184c1cdc7efe66",
+   "from": "docs/baseline/latency_desktop_replay_2026-09-06_v3.jsonl",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/README.md",
+   "bytes": 42244,
+   "sha256": "e09cc12138da9af8bac743efbb7a115ec8e99648f1f90b4ffee4be9c63683e85",
+   "from": "docs/baseline/README.md",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/baseline/realvoice_2026-09-06_v2_refs.json",
+   "bytes": 2882,
+   "sha256": "96eec13dc44e4989cb738f794bd0802325a9d5d1da39834db26917735b2d9816",
+   "from": "docs/baseline/realvoice_2026-09-06_v2_refs.json",
+   "group": "baseline desktop-only đã ĐÓNG BĂNG (read-only từ 05/09)"
+  },
+  {
+   "path": "measurements/langconf/asr_cache.jsonl",
+   "bytes": 214992,
+   "sha256": "f012bcb263c7e7f2dab65f9af22252022ad63f5a3d7a3affebaae2a71514a3c5",
+   "from": "study/langconf/results/asr_cache.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/asymmetry.json",
+   "bytes": 230842,
+   "sha256": "30ddfc2748179b7c31f12de64b22c1144ab1beef7459dbb20cb21b41fc72cb77",
+   "from": "study/langconf/results/asymmetry.json",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/log_gemini.txt",
+   "bytes": 135117,
+   "sha256": "8e1fa4a4cf3600ee18ec7080f877b60268a5d1a3179dc8fb40d480b4d136c109",
+   "from": "study/langconf/results/log_gemini.txt",
+   "group": "lưới FLEURS + hai nhánh open-weight",
+   "transform": "S2 transcripts replaced by SHA-256 of normalised text"
+  },
+  {
+   "path": "measurements/langconf/log_llama.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "from": "study/langconf/results/log_llama.txt",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/log_qwen.txt",
+   "bytes": 1874,
+   "sha256": "1824f3b02cfa5cf96338d41008dfd40e1d8094443563fbd8f5055f293f277dba",
+   "from": "study/langconf/results/log_qwen.txt",
+   "group": "lưới FLEURS + hai nhánh open-weight",
+   "transform": "S2 transcripts replaced by SHA-256 of normalised text"
+  },
+  {
+   "path": "measurements/langconf/log_realvoice.txt",
+   "bytes": 10927,
+   "sha256": "467a991c2b24f9c05a28ecaba8b54950fa76bbb173260fe2ab6350dff6c0bbcd",
+   "from": "study/langconf/results/log_realvoice.txt",
+   "group": "lưới FLEURS + hai nhánh open-weight",
+   "transform": "S2 transcripts replaced by SHA-256 of normalised text"
+  },
+  {
+   "path": "measurements/langconf/main_gemini.jsonl.gz",
+   "bytes": 12832168,
+   "sha256": "7da94a7cfb498824bb11a8bbbfe1987dda5eb6b80df2db879f960314e623ef23",
+   "from": "study/langconf/results/main_gemini.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight",
+   "gzip": true,
+   "sha256_raw": "93ac6ee900c63cd0cf66779df5147637a183b9ad135074a0c6b7fadac0468e32",
+   "note": "published gzipped (GitHub 100 MB limit); sha256_raw is the file before compression"
+  },
+  {
+   "path": "measurements/langconf/main_gemini_scored.jsonl.gz",
+   "bytes": 13675954,
+   "sha256": "712c226b18881f017fb818c6f8dcf3145d27270e0def53d209e90b3e0537f9f4",
+   "from": "study/langconf/results/main_gemini_scored.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight",
+   "gzip": true,
+   "sha256_raw": "6774620e3d20a278ddc098d995aa823775de84915f96bc90e6a0bedc00297d4c",
+   "note": "published gzipped (GitHub 100 MB limit); sha256_raw is the file before compression"
+  },
+  {
+   "path": "measurements/langconf/main_llama3.1-8b.jsonl",
+   "bytes": 358753,
+   "sha256": "95dac90615a196efea32c38442271a64afa93f67cec0de734aebe462ceb051bd",
+   "from": "study/langconf/results/main_llama3.1-8b.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/main_qwen2.5-7b.jsonl",
+   "bytes": 1907073,
+   "sha256": "c28b7d51f80468a145d74fbac341b16096ee80f276fbfad3147d4413393aa99a",
+   "from": "study/langconf/results/main_qwen2.5-7b.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/openweight_check.json",
+   "bytes": 1833,
+   "sha256": "08c5bc2f36cc7b76ccace42662045e01ef928e0f4813943de9661cd61d47d8e3",
+   "from": "study/langconf/results/openweight_check.json",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/pilot.jsonl",
+   "bytes": 271025,
+   "sha256": "5a227a20232e19a4452926be208e48210ccf387ab768cc0fabcc9a8c954d18d0",
+   "from": "study/langconf/results/pilot.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/pilot_scored.jsonl",
+   "bytes": 299763,
+   "sha256": "3bc4b53f41af6f9945f1c087bcdbcf5468c32d07f43443f4ce74a7d35b390f8c",
+   "from": "study/langconf/results/pilot_scored.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/realvoice.jsonl",
+   "bytes": 10007516,
+   "sha256": "cdf0ba49577e8160423558566f13e64cc4c325b35fd5f31b0414761677a5d4f1",
+   "from": "study/langconf/results/realvoice.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/realvoice_scored.jsonl",
+   "bytes": 8448660,
+   "sha256": "d8ae6aa9b291985ff699a775c07b4abe81c4598fcb00e0ab5ef8d99f927a64cb",
+   "from": "study/langconf/results/realvoice_scored.jsonl",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "measurements/langconf/rerun_check_qwen2.5-7b.json",
+   "bytes": 16094,
+   "sha256": "66c9aa9463a5b008fc4a1ea7102ea2588d34d361f52ceb13c498ba00690f2db5",
+   "from": "study/langconf/results/rerun_check_qwen2.5-7b.json",
+   "group": "lưới FLEURS + hai nhánh open-weight"
+  },
+  {
+   "path": "protocol/LABELING-PROTOCOL.md",
+   "bytes": 7456,
+   "sha256": "6019818baf0954ece91a703fe6567dd330a136e21211b53db1a137ad25802719",
+   "from": "docs/benchmark/LABELING-PROTOCOL.md",
+   "group": "giao thức gán nhãn"
+  },
+  {
+   "path": "protocol/PROTOCOL.md",
+   "bytes": 13754,
+   "sha256": "cea62baeb90fcb71a6d5c6910b06236d42289d06b4cf0c90c347dd6c78a0ce91",
+   "from": "docs/benchmark/PROTOCOL.md",
+   "group": "chuẩn hoá WER (§A) và loopback vật lý (§B)"
+  },
+  {
+   "path": "protocol/DEVICE-FLOOR.md",
+   "bytes": 43237,
+   "sha256": "98231d221fa4eaaca761737310198a32843899426c68cfe1d0bbc51c931e5a68",
+   "from": "docs/benchmark/DEVICE-FLOOR.md",
+   "group": "sàn thiết bị: cách đo và sai số"
+  },
+  {
+   "path": "protocol/PAPER-NUMBERS.md",
+   "bytes": 96103,
+   "sha256": "9132ad249dccbd1ae64d81a68e7b9cf5e382b223e8eb3dd8cd57b1d69a334996",
+   "from": "docs/PAPER-NUMBERS.md",
+   "group": "sổ số — nguồn sự thật của mọi con số vào bài"
+  },
+  {
+   "path": "protocol/numbers.json",
+   "bytes": 25740,
+   "sha256": "6ce5525937b1b8f570747715630adc455e27e7dd257dcaedb37732860f0663c0",
+   "from": "paper/numbers.json",
+   "group": "bản máy đọc được của sổ số"
+  },
+  {
+   "path": "scripts/desktop/bench_contention.py",
+   "bytes": 6127,
+   "sha256": "2f75723a9c72ce9de394aa6105f77e71c966d0dedcf2fef794f14ef83e0f566e",
+   "from": "desktop/scripts/bench_contention.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_devout.py",
+   "bytes": 48795,
+   "sha256": "277328654f33d2d5d7be96d41dbcb2d58e65be59c92d649306a4dcaeb7bf8713",
+   "from": "desktop/scripts/bench_devout.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_grounding.py",
+   "bytes": 11235,
+   "sha256": "398b7d1282b28c553d100bc7e7cc59b72ed01942017fdc8ba8b49439e6028b07",
+   "from": "desktop/scripts/bench_grounding.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_grounding_stability.py",
+   "bytes": 14484,
+   "sha256": "283b8b88863d32cfab084ac44b6027ff37b89d8042efe9fca67254554b0e89d8",
+   "from": "desktop/scripts/bench_grounding_stability.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_hosted_repeat.py",
+   "bytes": 9176,
+   "sha256": "7594e10c055fab256b63122f26e5c6b53709f996eb9726908345f1dbc5377c33",
+   "from": "desktop/scripts/bench_hosted_repeat.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_latency.py",
+   "bytes": 29456,
+   "sha256": "c817615281b33ef0cf02c99290f6cf6352b7a987c2c82e92a35f24659eb71c20",
+   "from": "desktop/scripts/bench_latency.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_lookup.py",
+   "bytes": 8127,
+   "sha256": "7f38315dcaf2f02718fa6b236d71b776275513986fe76938c628de4f2fee9aae",
+   "from": "desktop/scripts/bench_lookup.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_loopback.py",
+   "bytes": 23287,
+   "sha256": "ac7717fa474ff5787c30ffe254983d2475dd444e5d19f85cdfda6ee1bf78820b",
+   "from": "desktop/scripts/bench_loopback.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_routing.py",
+   "bytes": 41441,
+   "sha256": "89a17650ec63d341144ece602ef308a835965a640611dc7a660ef992065103e9",
+   "from": "desktop/scripts/bench_routing.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_stt.py",
+   "bytes": 5336,
+   "sha256": "eff1269fe25d6fcb81f3080a440797068154c4fecbd18d1b6af178329d57cd3a",
+   "from": "desktop/scripts/bench_stt.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_stt_determinism.py",
+   "bytes": 11271,
+   "sha256": "3c82cd35811a8e941cdd24e19f0e6d051b6b71a109bd0a300590c85e03c95743",
+   "from": "desktop/scripts/bench_stt_determinism.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_threads.py",
+   "bytes": 4970,
+   "sha256": "2240849cfcd564bee1cf11227d0f4e7831ba00a609ab728e0d5a75db7bd8b5da",
+   "from": "desktop/scripts/bench_threads.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/bench_wakeword.py",
+   "bytes": 8500,
+   "sha256": "792fa67d40262b7872af09842bfab2574e01339153ed404854f913b64a405dc0",
+   "from": "desktop/scripts/bench_wakeword.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/build_index.py",
+   "bytes": 2059,
+   "sha256": "2fce40703625ba88b9cde399d08ce2ffcd5bad54deaeb7842a14a701f0d086f1",
+   "from": "desktop/scripts/build_index.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/build_lookup_set.py",
+   "bytes": 9191,
+   "sha256": "354875d4d37cf868d44152b3235ffa07721714c3a6d61564ec693b210433215c",
+   "from": "desktop/scripts/build_lookup_set.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/build_muc11.py",
+   "bytes": 23417,
+   "sha256": "1bea680f09f0a4a633166843bd2c83fa4cb4d075c197eeb1cbfdad8ed8c375eb",
+   "from": "desktop/scripts/build_muc11.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/build_numbers.py",
+   "bytes": 36054,
+   "sha256": "2a70f6f173906e2b526e3e433f2be7a0b6e58224cae75d67cc2d51d9fae9c516",
+   "from": "desktop/scripts/build_numbers.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/build_s09.py",
+   "bytes": 16376,
+   "sha256": "573b4bead567da1074770178f4cccacf3791b0d67111dd14948997c7b3cbdb60",
+   "from": "desktop/scripts/build_s09.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/cham_m6_m7.py",
+   "bytes": 18656,
+   "sha256": "b879cb7b62f3e4d457f226f3a034c69e31a85c88d4739335d5eb68244ed6e2db",
+   "from": "desktop/scripts/cham_m6_m7.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_anon.py",
+   "bytes": 12768,
+   "sha256": "3199f8bb658fe33007222727aee7ae075dcb9d8ba0e51a700782d0e27bb0ec11",
+   "from": "desktop/scripts/check_anon.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_audio.py",
+   "bytes": 4364,
+   "sha256": "b22ec8cb87fb288667a1786025ff1470946c73990d1dc0024426ec40f730bb33",
+   "from": "desktop/scripts/check_audio.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_de_muc.py",
+   "bytes": 7359,
+   "sha256": "990316566919bbc1ad45df55ec5feeed778dd752fa1e44b72ace10824fa57bdb",
+   "from": "desktop/scripts/check_de_muc.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_geometry.py",
+   "bytes": 10768,
+   "sha256": "d9e62bbd29ca6f39184022eb4db503247bdc9299cdbb11468b0997c6cad085e0",
+   "from": "desktop/scripts/check_geometry.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_goi_truoc_day.py",
+   "bytes": 7237,
+   "sha256": "e5311ede40361420a3e61c0d415de89e0356d8d86813b27ff62cf1a427d6f937",
+   "from": "desktop/scripts/check_goi_truoc_day.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_highlights.py",
+   "bytes": 3290,
+   "sha256": "17f1a223bade55c650ed78cea9b619090cf10a42b591af826853ff3155f5dbdf",
+   "from": "desktop/scripts/check_highlights.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_markup.py",
+   "bytes": 27906,
+   "sha256": "1df05e7e98b3cd61f0449e8e81214db45648e4fb01bfd6178e5f6ef6a4057861",
+   "from": "desktop/scripts/check_markup.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_numerator.py",
+   "bytes": 8049,
+   "sha256": "0f6ba2ad2aeee9760c713fca6354a60c037d4fa349824df9c39915727273b3ef",
+   "from": "desktop/scripts/check_numerator.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_pii_s2.py",
+   "bytes": 4841,
+   "sha256": "bae3a44b81b9d75285e671ce183b09fb299551406af6cdf54eab4049150c565c",
+   "from": "desktop/scripts/check_pii_s2.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/check_refs.py",
+   "bytes": 10467,
+   "sha256": "7eff3a8df69c155622000e57df4f0028c8b713d35edb1e52ab5564937f8e67ef",
+   "from": "desktop/scripts/check_refs.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/kappa.py",
+   "bytes": 10696,
+   "sha256": "b592db8197db3996eeb351b8bdd5708d3f67f5d1654cada615fff7ccfb388731",
+   "from": "desktop/scripts/kappa.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/list_voices.py",
+   "bytes": 1184,
+   "sha256": "197e1138783a08ad22dd59f204ad4160ca6e402205d60b8b9944a803c9591370",
+   "from": "desktop/scripts/list_voices.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/lookup_set_vi.py",
+   "bytes": 6541,
+   "sha256": "95794434e3d2732a818255855c4e7fdf03eb483c4eef5638b56b6ea40e30c3d2",
+   "from": "desktop/scripts/lookup_set_vi.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/m1_dat_ten_rv2.py",
+   "bytes": 3675,
+   "sha256": "e7781addde4edb946477caae518a18e8ba610627938f1e74853cd386983c9e6e",
+   "from": "desktop/scripts/m1_dat_ten_rv2.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/m1_kiem_bo_cau.py",
+   "bytes": 6277,
+   "sha256": "f16f28753d83600fdd4dd2f37bd2140bd047cddeb907df99c0915d05b28757f3",
+   "from": "desktop/scripts/m1_kiem_bo_cau.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/m1_sinh_s3.py",
+   "bytes": 13919,
+   "sha256": "e7b2ec0c6910f12617c6a201695f0310c42e8fc6506631331a0447297677d990",
+   "from": "desktop/scripts/m1_sinh_s3.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/mail_cli.py",
+   "bytes": 6297,
+   "sha256": "d290f239ccd1ce7468360f0e901a23b373585bda0e98d5cf08209a0e42232bc5",
+   "from": "desktop/scripts/mail_cli.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/mail_login.py",
+   "bytes": 2445,
+   "sha256": "0178b3c405cc5cd8c774f5f77a3c6d3849c68d8905552effbd0cf44e364294b7",
+   "from": "desktop/scripts/mail_login.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/mail_qa_set.py",
+   "bytes": 18833,
+   "sha256": "6cf4bee92f8067adfea0d7c112d21e0d3e61bb6f0c124d4313ca085e7082b12b",
+   "from": "desktop/scripts/mail_qa_set.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/make_blind_set.py",
+   "bytes": 3431,
+   "sha256": "9827e00f98827dd703a3cc2a4e39d2f3c176471c3fbf7cb1510383a0fe0c4cc2",
+   "from": "desktop/scripts/make_blind_set.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/memory_cli.py",
+   "bytes": 3862,
+   "sha256": "0940dd7f58735e8e95738ca38753df4eabf5d2cba3d35dd59baa925cc483d31f",
+   "from": "desktop/scripts/memory_cli.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/probe_cau_kep.py",
+   "bytes": 6832,
+   "sha256": "8db9a289c2e7503f77d705dea7268ed7e9d9c2c271297a70e1c54aba14764397",
+   "from": "desktop/scripts/probe_cau_kep.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/probe_grounding.py",
+   "bytes": 5177,
+   "sha256": "9fb62f68f6da6357f0bf150676749895a1316f52d7ac7d8a91f01cd2abb8ba76",
+   "from": "desktop/scripts/probe_grounding.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/probe_launcher_kill.py",
+   "bytes": 4718,
+   "sha256": "f1e6212ecb62a6770c6f3f48c548e50eaa82fd6929d29543bb48e6aec6696a19",
+   "from": "desktop/scripts/probe_launcher_kill.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/rescore_utts.py",
+   "bytes": 21919,
+   "sha256": "f8c29dfef89f5a3f28cfeeff6ef5cbb1924dfe9d4729fc077b71b376ae43a101",
+   "from": "desktop/scripts/rescore_utts.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/run_m_all.py",
+   "bytes": 22598,
+   "sha256": "f3227e764a42824159bdb559f3b461263ed10ebd8a1d57afe439da3ea99792cc",
+   "from": "desktop/scripts/run_m_all.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/desktop/runner_safe.py",
+   "bytes": 6358,
+   "sha256": "a918e3fff0295965f84a33c722505d0c08f2adfabee0ac22c8f965525f8bec91",
+   "from": "desktop/scripts/runner_safe.py",
+   "group": "bench_* và build_numbers/check_refs"
+  },
+  {
+   "path": "scripts/langconf/analyze.py",
+   "bytes": 10300,
+   "sha256": "84b76c6888836a4a01731a0e4879dec793a2e4623988dca670cc481010c96ba3",
+   "from": "study/langconf/scripts/analyze.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/build_fleurs.py",
+   "bytes": 2921,
+   "sha256": "6d55b0492e6549d5ecf5b005732f50261b02ef56107cef42343aeda37ca8f14c",
+   "from": "study/langconf/scripts/build_fleurs.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/contrasts.py",
+   "bytes": 9103,
+   "sha256": "4268a34726f320cb76f4a57f86810f40d6ae976de9c28addc139e9a662963a23",
+   "from": "study/langconf/scripts/contrasts.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/enrich.py",
+   "bytes": 7027,
+   "sha256": "e19f390e42e69ab6ee5f9f3f40c8c244be852f047a33a53edbcb9685f9d53da5",
+   "from": "study/langconf/scripts/enrich.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/estimate.py",
+   "bytes": 7774,
+   "sha256": "e3a24eb076c4be9d74ccc4c6bdda94ff87846a2671cc63149ab3a953916fe3e2",
+   "from": "study/langconf/scripts/estimate.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/host_check.py",
+   "bytes": 9650,
+   "sha256": "bb7cf82febf6983362230b42b705068168abc0ddd5965b4f7f1b70781de3b906",
+   "from": "study/langconf/scripts/host_check.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/openweight_check.py",
+   "bytes": 5336,
+   "sha256": "5623b72753794e0100d0597d626ab41c7ff1d2db37b5d34d4562ce09bd144f6a",
+   "from": "study/langconf/scripts/openweight_check.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/pilot.py",
+   "bytes": 13873,
+   "sha256": "e6f14c545db63b074f11e4910c00444d04390567de48a2fcc2db2c57ae6dd1b8",
+   "from": "study/langconf/scripts/pilot.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/rerun_check.py",
+   "bytes": 6589,
+   "sha256": "fa35b4d8cf0dfa48009684c0beb4e5847c28176d4611c7681890a8e7c3e0b1d3",
+   "from": "study/langconf/scripts/rerun_check.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf/run_main.py",
+   "bytes": 13435,
+   "sha256": "cb0777b6e4ee0e720d64dd2e545bcfdc061c6cb3ce741d97ddc5289158cdad32",
+   "from": "study/langconf/scripts/run_main.py",
+   "group": "chạy lưới, chấm điểm, phân tích"
+  },
+  {
+   "path": "scripts/langconf_lib/__init__.py",
+   "bytes": 255,
+   "sha256": "0308ef4dfd730d50614a5fea976abc0241f556ac7a55b9e607637f7aa2c18908",
+   "from": "study/langconf/langconf/__init__.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/asr.py",
+   "bytes": 12833,
+   "sha256": "e8da7af9e69e13a02d257881ae81fac7515c6b354c421a33348ad9c896ad526d",
+   "from": "study/langconf/langconf/asr.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/cohere_metrics.py",
+   "bytes": 10171,
+   "sha256": "4575037031dc86329d3dcce46654a9441afdc8357501136be9f4bfc6e2061fad",
+   "from": "study/langconf/langconf/cohere_metrics.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/design.py",
+   "bytes": 8850,
+   "sha256": "2ed7309ed3734a4bb5be137d8aaefe7e20c1d24b51ee93c061d5919996423066",
+   "from": "study/langconf/langconf/design.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/fleurs.py",
+   "bytes": 12081,
+   "sha256": "24e5915b54ed1701d984e45533c59afa9aaa78d9c1601f0ff172a138cb65d53c",
+   "from": "study/langconf/langconf/fleurs.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/langid.py",
+   "bytes": 7809,
+   "sha256": "3b44eb2f0b814a7cd53b6be95dbb6af0b8bf885494fca6f7a62536d99204b2df",
+   "from": "study/langconf/langconf/langid.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/lce.py",
+   "bytes": 5920,
+   "sha256": "5c3787948c79286fcecf95d290c77ddb1601b3ebed21d044d4b98d0902bb0c3b",
+   "from": "study/langconf/langconf/lce.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/models.py",
+   "bytes": 16198,
+   "sha256": "bd6a057645c1d10cb6e4faf3f574de7f710632e4bf4931b4b4510393dd195996",
+   "from": "study/langconf/langconf/models.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/prompts.py",
+   "bytes": 16830,
+   "sha256": "a4685af520141b8050b456a6a9c86ac4349c068ea72dfc0732ccf483ef498597",
+   "from": "study/langconf/langconf/prompts.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/runner.py",
+   "bytes": 16190,
+   "sha256": "b986ef75b7f8257d1d9bb41a6013c61e4ec6cb448363ae4f38d90ef3220d6334",
+   "from": "study/langconf/langconf/runner.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "scripts/langconf_lib/scoring.py",
+   "bytes": 14882,
+   "sha256": "1211594362192d7532160fa83cf318fbb50633e8e35cb1473035bf5845982bf2",
+   "from": "study/langconf/langconf/scoring.py",
+   "group": "thư viện của nghiên cứu phụ"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v1_r1.wav",
+   "bytes": 74732,
+   "sha256": "44a077cbfe8523a859cf9b25a1d88c119752da472967fab1f8e79faaedebcdeb",
+   "from": "desktop/logs/utts_s3/s3_s01_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v1_r2.wav",
+   "bytes": 65516,
+   "sha256": "088afebdbffdc15d7a7a3aa6c6278c1600218aa7e89c8426fc314f100ade1ed3",
+   "from": "desktop/logs/utts_s3/s3_s01_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v1_r3.wav",
+   "bytes": 72684,
+   "sha256": "2a81a2336c9fa40ebaaac4a66284a7e75cec51788a977261243b65808a777d7e",
+   "from": "desktop/logs/utts_s3/s3_s01_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v2_r1.wav",
+   "bytes": 76780,
+   "sha256": "7678d8647dee48d154c132a6eb706cca061b6ac085060ac6cf12b7ca0cec858c",
+   "from": "desktop/logs/utts_s3/s3_s01_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v2_r2.wav",
+   "bytes": 72684,
+   "sha256": "2251c4170230d44fcbeec852fe95924180bb1e730cff5074b911f14a615c05c9",
+   "from": "desktop/logs/utts_s3/s3_s01_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v2_r3.wav",
+   "bytes": 81900,
+   "sha256": "eafa0b73af8b40acf01baf4bdba21ad991fe4d0b5f7919076e7917667ef0fb59",
+   "from": "desktop/logs/utts_s3/s3_s01_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v3_r2.wav",
+   "bytes": 61420,
+   "sha256": "dae9788c6d5d56b3205ae3b690875cda453cf5445e5a516ccc7f10810cd6f126",
+   "from": "desktop/logs/utts_s3/s3_s01_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s01_v3_r3.wav",
+   "bytes": 68588,
+   "sha256": "67247319af9b2989bed6706e22fb57342ba9064016d7c532434add7d9cfff2b9",
+   "from": "desktop/logs/utts_s3/s3_s01_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v1_r1.wav",
+   "bytes": 70636,
+   "sha256": "42b0a956b76f25801e5d52756347a53a38b26f56e05abe08832dd2474a909372",
+   "from": "desktop/logs/utts_s3/s3_s02_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v1_r2.wav",
+   "bytes": 71660,
+   "sha256": "747793197affd09622a08a4c39a5ee005477c1de8b1febb8884477c3639d48d7",
+   "from": "desktop/logs/utts_s3/s3_s02_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v1_r3.wav",
+   "bytes": 72684,
+   "sha256": "2beaa1d3a76da386667844dbdce4f7b5f0a4ccc2262a99139b9e122de716a672",
+   "from": "desktop/logs/utts_s3/s3_s02_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v2_r1.wav",
+   "bytes": 76780,
+   "sha256": "43bb02454f04cda95ce9097ccbc8a72eb699c3556014d2be781cc605d8953efa",
+   "from": "desktop/logs/utts_s3/s3_s02_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v2_r2.wav",
+   "bytes": 73708,
+   "sha256": "1ee5eec63f4025bf5a904ad6e0cabc6209e7b3dce02eea274b0c8744db8870ce",
+   "from": "desktop/logs/utts_s3/s3_s02_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v2_r3.wav",
+   "bytes": 73708,
+   "sha256": "46fedad2a535a2281f41b885d75ef6e93fd198f1122b604dc251d77c9229364a",
+   "from": "desktop/logs/utts_s3/s3_s02_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v3_r1.wav",
+   "bytes": 65516,
+   "sha256": "95dffe6566a9be96c8841103a3a2b13093b65b5db4a1fdff98c577cd60be0fae",
+   "from": "desktop/logs/utts_s3/s3_s02_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v3_r2.wav",
+   "bytes": 65516,
+   "sha256": "1d7ab1cae58e59fd4e237c90007f12d102347e697485625cbe4e931168ef3959",
+   "from": "desktop/logs/utts_s3/s3_s02_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s02_v3_r3.wav",
+   "bytes": 60396,
+   "sha256": "58a8f393e002be8f49b94c215dc697ebc3a8b1e292dc86902f8da51c8fcc43f7",
+   "from": "desktop/logs/utts_s3/s3_s02_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v1_r1.wav",
+   "bytes": 49132,
+   "sha256": "33813606b3c377c9fba978889062fd998d752d60b8584e82b60bf55ef91dccdb",
+   "from": "desktop/logs/utts_s3/s3_s03_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v1_r2.wav",
+   "bytes": 50156,
+   "sha256": "cdf06585730469a3f7f6413419d4d9e3475d1a4a046881c220bf3f8a57ce6820",
+   "from": "desktop/logs/utts_s3/s3_s03_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v1_r3.wav",
+   "bytes": 47084,
+   "sha256": "6c1531a6cb537a5d1cad22db756164d8018f4cbfaa01a39dfb71bd31b6501e3c",
+   "from": "desktop/logs/utts_s3/s3_s03_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v2_r1.wav",
+   "bytes": 57324,
+   "sha256": "22f13387132410a53bb32d3efa7d93f3ae391faf1ebcff155d35d67c03f8774a",
+   "from": "desktop/logs/utts_s3/s3_s03_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v2_r2.wav",
+   "bytes": 50156,
+   "sha256": "44cb5f24b63f61d39632b43a72048b8a727db5deba272e9cd428a6f959c5e4ec",
+   "from": "desktop/logs/utts_s3/s3_s03_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v2_r3.wav",
+   "bytes": 52204,
+   "sha256": "c1e093b803c9d0b991e48e6a6a345e70c5c53ecbf97aef48a190e343db924430",
+   "from": "desktop/logs/utts_s3/s3_s03_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v3_r1.wav",
+   "bytes": 56300,
+   "sha256": "ca48eac1f254ba0a6bee2fac9d403f7ea69eb3799555d02b8632ee3702c67d14",
+   "from": "desktop/logs/utts_s3/s3_s03_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v3_r2.wav",
+   "bytes": 48108,
+   "sha256": "f18c9782378a5d64cccaea5a46354a69b346db9df2ea750486593d4ff6f0e27f",
+   "from": "desktop/logs/utts_s3/s3_s03_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s03_v3_r3.wav",
+   "bytes": 46060,
+   "sha256": "2f24ac8314bef8a0c1789eaba646d6e8b1775d7270fdd211d5e231c29635eba1",
+   "from": "desktop/logs/utts_s3/s3_s03_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v1_r1.wav",
+   "bytes": 31724,
+   "sha256": "1eea6d9187d73c4a2f2b351ed803650e778cf5909516327c0b02a0f28537d691",
+   "from": "desktop/logs/utts_s3/s3_s04_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v1_r2.wav",
+   "bytes": 31724,
+   "sha256": "b7116a861f93048628b2eb115d5dfd8ee9b0c5b151150f81f587510d258d8f85",
+   "from": "desktop/logs/utts_s3/s3_s04_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v1_r3.wav",
+   "bytes": 33772,
+   "sha256": "1088ee8bef3599017c8866f1ad9d21637d1eb3f3945ce7e6ef81050b8dd8c3a9",
+   "from": "desktop/logs/utts_s3/s3_s04_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v2_r1.wav",
+   "bytes": 33772,
+   "sha256": "220c8ed5b94454e67d0ab377f52797bbdfec1c44820eb5d4b791c4e588fc11b6",
+   "from": "desktop/logs/utts_s3/s3_s04_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v2_r2.wav",
+   "bytes": 35820,
+   "sha256": "f2878a81427865d9755bfe5a45014e1d440460b70443502aaed2c2568080927a",
+   "from": "desktop/logs/utts_s3/s3_s04_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v2_r3.wav",
+   "bytes": 114668,
+   "sha256": "f4d3168a694ea9dc039c8ab488a8ad8b4fc2642505b4db017ce25f12d680e015",
+   "from": "desktop/logs/utts_s3/s3_s04_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v3_r1.wav",
+   "bytes": 26604,
+   "sha256": "518c97e4a4f6dd262e02fd666765ddabd75badc13c08d1893e49eff2c0e73848",
+   "from": "desktop/logs/utts_s3/s3_s04_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v3_r2.wav",
+   "bytes": 29676,
+   "sha256": "3efb378cccb8eb9c5cbd90f5a6a3ed08ffe4fe3682d3ed90e2e991ae3013fed6",
+   "from": "desktop/logs/utts_s3/s3_s04_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s04_v3_r3.wav",
+   "bytes": 28652,
+   "sha256": "ef196425c6885fac2b84605bc146ee39ae37784f23e357fd07a09b934c1b5ac8",
+   "from": "desktop/logs/utts_s3/s3_s04_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v1_r1.wav",
+   "bytes": 70636,
+   "sha256": "a671728c6f891772e2b32a8455da0fc806bd2086489b7b2cfd2d919461c9d20e",
+   "from": "desktop/logs/utts_s3/s3_s05_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v1_r2.wav",
+   "bytes": 50156,
+   "sha256": "5b7fdbc4a50d7c23012d60c05b20df03724aef9fe4886407b2720f9bd2ccc6c2",
+   "from": "desktop/logs/utts_s3/s3_s05_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v1_r3.wav",
+   "bytes": 55276,
+   "sha256": "fb07633df92b73d195f86ea2200a18087656cdf519e0a06271dd3e2a51234f5b",
+   "from": "desktop/logs/utts_s3/s3_s05_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v2_r1.wav",
+   "bytes": 65516,
+   "sha256": "9ecc8b967116b8c578d919e981ecfe535ce4cf493670dfa17adce9264f3209a1",
+   "from": "desktop/logs/utts_s3/s3_s05_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v2_r2.wav",
+   "bytes": 54252,
+   "sha256": "e43591781bce1853200f1abb8ffda6ab6db450bb427a95a226ac90533c5da09d",
+   "from": "desktop/logs/utts_s3/s3_s05_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v2_r3.wav",
+   "bytes": 54252,
+   "sha256": "b7b346c28ba93c7177360b8ecad99d67e8a8e841e405bab50c5f0908c002d91f",
+   "from": "desktop/logs/utts_s3/s3_s05_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v3_r1.wav",
+   "bytes": 53228,
+   "sha256": "493f7926367503f4658c35543e0dd7865c1f33db55f473bc079774bbb978b26b",
+   "from": "desktop/logs/utts_s3/s3_s05_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v3_r2.wav",
+   "bytes": 47084,
+   "sha256": "11baefb69e15bdbdb95aae0b2e00407c5f07b2a382b10377a44ad3177ce0e432",
+   "from": "desktop/logs/utts_s3/s3_s05_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s05_v3_r3.wav",
+   "bytes": 44012,
+   "sha256": "88397d72b2e0a26a80ac5b45839ee35f3ec6c6494ef7619af29eb08014901ac9",
+   "from": "desktop/logs/utts_s3/s3_s05_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v1_r1.wav",
+   "bytes": 48108,
+   "sha256": "c6680806932a031cc9e6950688ff34df5d2a609584cfb3c503f5d4c6106ecb97",
+   "from": "desktop/logs/utts_s3/s3_s06_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v1_r2.wav",
+   "bytes": 48108,
+   "sha256": "47a6679d5290006ab0d903efef948a18c26c90418669859d679a9e5e7c38d628",
+   "from": "desktop/logs/utts_s3/s3_s06_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v1_r3.wav",
+   "bytes": 48108,
+   "sha256": "ffb0c12a28878e19ef0115b571737a5f170c78b352aca6694e6140de073737d7",
+   "from": "desktop/logs/utts_s3/s3_s06_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v2_r1.wav",
+   "bytes": 53228,
+   "sha256": "ae83257dbb3ff01b90f6263a9c1ca8b07c24544b758249cb7754dea2cc7df9d7",
+   "from": "desktop/logs/utts_s3/s3_s06_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v2_r2.wav",
+   "bytes": 53228,
+   "sha256": "956931f4819109dea3c24240c05ae6c13bcb353329b6a6f7bd5c6c2e5e3df103",
+   "from": "desktop/logs/utts_s3/s3_s06_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v2_r3.wav",
+   "bytes": 47084,
+   "sha256": "dfc4e535ec13dacd5fc1badb76c6b444f51b12dd94240159a870372420bb5bdd",
+   "from": "desktop/logs/utts_s3/s3_s06_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v3_r1.wav",
+   "bytes": 47084,
+   "sha256": "42dc1dc7d5c357a28b8cd6c7e4097aacc0be047c4182d99f72678510d588a02a",
+   "from": "desktop/logs/utts_s3/s3_s06_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v3_r2.wav",
+   "bytes": 48108,
+   "sha256": "d336cbee7c6653d27cca9c01d6470ae81a8c10069599965dd25ee88da682d4a4",
+   "from": "desktop/logs/utts_s3/s3_s06_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s06_v3_r3.wav",
+   "bytes": 41964,
+   "sha256": "f5e20ca542779ab7dd81358f5a185f069c42f60f059d26b1949290cc0a90c14f",
+   "from": "desktop/logs/utts_s3/s3_s06_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v1_r1.wav",
+   "bytes": 56300,
+   "sha256": "e9bf70da279ae4bb27aab905f40698b525a66ea950948a2c1b9e8c93d6ba5ae3",
+   "from": "desktop/logs/utts_s3/s3_s07_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v1_r2.wav",
+   "bytes": 57324,
+   "sha256": "d013babe388aa2611119f3db12c06c6e04c67c512766323b4a35950830b1692a",
+   "from": "desktop/logs/utts_s3/s3_s07_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v1_r3.wav",
+   "bytes": 56300,
+   "sha256": "bf5b3a99a8f6e828c556320517eb1d5151ade67880560399f2ab21ce6d69909b",
+   "from": "desktop/logs/utts_s3/s3_s07_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v2_r1.wav",
+   "bytes": 58348,
+   "sha256": "1e9000b79394c0462e4bb0f32ebfb6c01f4d941a533e813b856a1b397e4b0049",
+   "from": "desktop/logs/utts_s3/s3_s07_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v2_r2.wav",
+   "bytes": 59372,
+   "sha256": "426931bebdd9c7c90ae2d366711dfb8464d250d4a364f7c79fa3897c80302fb1",
+   "from": "desktop/logs/utts_s3/s3_s07_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v2_r3.wav",
+   "bytes": 61420,
+   "sha256": "d5ad06003680313d7bba2c516864a695ed3f9bb98e066a75581d20f80f798cca",
+   "from": "desktop/logs/utts_s3/s3_s07_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v3_r1.wav",
+   "bytes": 51180,
+   "sha256": "643fede64aa30a0994dff7a82be4353c5672c38594f7a47c1ecfe291c3782f76",
+   "from": "desktop/logs/utts_s3/s3_s07_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v3_r2.wav",
+   "bytes": 56300,
+   "sha256": "fee86c545c0c032421849d37c5f34831f8c7f4920e79c2bc493b63c945b0f095",
+   "from": "desktop/logs/utts_s3/s3_s07_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s07_v3_r3.wav",
+   "bytes": 54252,
+   "sha256": "1b52be130e6cb67cf32df194252b06c666d009db92cb6f38adb8abdf97a582c0",
+   "from": "desktop/logs/utts_s3/s3_s07_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v1_r1.wav",
+   "bytes": 63468,
+   "sha256": "ecd5a48b42e5a442b127db8125462f13ecb4820483b0857f0eb1056f9b6910a8",
+   "from": "desktop/logs/utts_s3/s3_s08_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v1_r2.wav",
+   "bytes": 63468,
+   "sha256": "4c82a86a775d6b5afb03d33e74f9c1e26121191102709149ed7bd88175783825",
+   "from": "desktop/logs/utts_s3/s3_s08_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v1_r3.wav",
+   "bytes": 69612,
+   "sha256": "0f1e4717856f53f7992c3e6b3799b9d800a5236c41bacf553caa6368b2a065b9",
+   "from": "desktop/logs/utts_s3/s3_s08_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v2_r1.wav",
+   "bytes": 76780,
+   "sha256": "51ee6e31cb5202dffdf6f88e52d7bc0154646c92bda72de6fb7c28307e4ed0e4",
+   "from": "desktop/logs/utts_s3/s3_s08_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v2_r2.wav",
+   "bytes": 72684,
+   "sha256": "b81803babc7cd25a1a53931df3de40e46359b02372a74daea0768515c7e99d07",
+   "from": "desktop/logs/utts_s3/s3_s08_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v2_r3.wav",
+   "bytes": 68588,
+   "sha256": "53d60f5297e905db04474c061d834d41072c9d206a25b3c99019d2469a2f8b0a",
+   "from": "desktop/logs/utts_s3/s3_s08_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v3_r1.wav",
+   "bytes": 61420,
+   "sha256": "31646fe5a100da9ada305058df38eb723f9558b33ae4d22852bf05a60c7f65e6",
+   "from": "desktop/logs/utts_s3/s3_s08_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v3_r2.wav",
+   "bytes": 59372,
+   "sha256": "f2a4b6526883ae5c067cdb273993da133981ec4eecc5da15c1bee8ef60c88475",
+   "from": "desktop/logs/utts_s3/s3_s08_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s08_v3_r3.wav",
+   "bytes": 64492,
+   "sha256": "3531d93d20c6d2d36fa76cc4ecbd4b329dd217aa1bd3dddc67e6ccdfa07aaa90",
+   "from": "desktop/logs/utts_s3/s3_s08_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v1_r1.wav",
+   "bytes": 59372,
+   "sha256": "53c49ff642028233afbeeb96d5a5c886d2a3b67f2c676a92f32a0298bac15bb5",
+   "from": "desktop/logs/utts_s3/s3_s09_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v1_r2.wav",
+   "bytes": 67564,
+   "sha256": "cc8562bd9c503732cad1dea5cfc5aff8af0ba7a974a4923df8695e9b5342c39c",
+   "from": "desktop/logs/utts_s3/s3_s09_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v1_r3.wav",
+   "bytes": 61420,
+   "sha256": "feb81ebc837cc6f61771903a1ede0b63de68783977058def21b1a9c615830c78",
+   "from": "desktop/logs/utts_s3/s3_s09_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v2_r1.wav",
+   "bytes": 60396,
+   "sha256": "bea8279c87ed06e74dd83f7f3093d74475ad8dcad9ce4441c7b2acd8de313e4a",
+   "from": "desktop/logs/utts_s3/s3_s09_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v2_r2.wav",
+   "bytes": 75756,
+   "sha256": "df95724725d096a7053e33d79f765cd51996ad8adb1c778d0032ef8028e6702f",
+   "from": "desktop/logs/utts_s3/s3_s09_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v2_r3.wav",
+   "bytes": 61420,
+   "sha256": "0d306ee9588ab82b88a2e2d77a7ad97bcd31f2d9ff1cee5fd150d73142c08e76",
+   "from": "desktop/logs/utts_s3/s3_s09_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v3_r1.wav",
+   "bytes": 54252,
+   "sha256": "3827e360bf7719872cabdb666b9ca33a7255c85a424f61cdaa67226625402d23",
+   "from": "desktop/logs/utts_s3/s3_s09_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v3_r2.wav",
+   "bytes": 53228,
+   "sha256": "f39fbac428c3a33951d0ab50526c8fc909f0f93dcd521fa5af8a81091bc3686b",
+   "from": "desktop/logs/utts_s3/s3_s09_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s09_v3_r3.wav",
+   "bytes": 52204,
+   "sha256": "c5767ea4b832ac4e59f736cba6662613de163002c9b2fa9662c306b7bd62639a",
+   "from": "desktop/logs/utts_s3/s3_s09_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v1_r1.wav",
+   "bytes": 60396,
+   "sha256": "4a7ac2ba8f358a1b49f297a610bc95c68fce38ccbdfbc7a591ec12defea603e6",
+   "from": "desktop/logs/utts_s3/s3_s10_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v1_r2.wav",
+   "bytes": 59372,
+   "sha256": "eeb0fcc86aea47c29e2d6bffccc4b06d9f6baa7972069ce35c3fe8f9540714b3",
+   "from": "desktop/logs/utts_s3/s3_s10_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v1_r3.wav",
+   "bytes": 61420,
+   "sha256": "589f572ecd4faaa7e5003cad811bcbc72da56747008fd407ee8d70e1abb5b6f9",
+   "from": "desktop/logs/utts_s3/s3_s10_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v2_r1.wav",
+   "bytes": 68588,
+   "sha256": "591f9fc8d359cdece21924f8be67061474d555e7c483a18c377c1e44120e2dc0",
+   "from": "desktop/logs/utts_s3/s3_s10_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v2_r2.wav",
+   "bytes": 60396,
+   "sha256": "0af93d10232e5f0929d43fd8464a1d33bb990a3e512568076bcaeda7754db3e7",
+   "from": "desktop/logs/utts_s3/s3_s10_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v2_r3.wav",
+   "bytes": 64492,
+   "sha256": "dad6a08e4dd24efc8bdd8e5dce0747a96e0d9bf619eb56889db2483cf55be220",
+   "from": "desktop/logs/utts_s3/s3_s10_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v3_r1.wav",
+   "bytes": 54252,
+   "sha256": "51beb7e9594b6291ebec8e5f41b879566b67abcda954a1042c5da2f528587ec2",
+   "from": "desktop/logs/utts_s3/s3_s10_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v3_r2.wav",
+   "bytes": 53228,
+   "sha256": "ce80aa77066a6dac0cab977bc19f5c081d94521f633cc0aee2f31fd8b6d91d99",
+   "from": "desktop/logs/utts_s3/s3_s10_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s10_v3_r3.wav",
+   "bytes": 52204,
+   "sha256": "76b39b3eba36804e7c16bc2d607ba0498d3bd577ec8f4cbab2f6d92dea167e7e",
+   "from": "desktop/logs/utts_s3/s3_s10_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v1_r1.wav",
+   "bytes": 48108,
+   "sha256": "43ca68f7fe9fcd3a5ba4d38a228cfcf33f126f40dc72026c6334acf931032136",
+   "from": "desktop/logs/utts_s3/s3_s11_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v1_r2.wav",
+   "bytes": 54252,
+   "sha256": "b8b6d3ceb2f988d92836b0b8c3519803d1831bc76c058defdd3237700cf5e716",
+   "from": "desktop/logs/utts_s3/s3_s11_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v1_r3.wav",
+   "bytes": 50156,
+   "sha256": "44591bef4ddbcc3a0b641f0bd0e0ce5a918078a573b922295e41310cfe965ed9",
+   "from": "desktop/logs/utts_s3/s3_s11_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v2_r1.wav",
+   "bytes": 53228,
+   "sha256": "1329303f837d8bfae78738ff2d41fbc823294a979b22e7bbe6097b672725da35",
+   "from": "desktop/logs/utts_s3/s3_s11_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v2_r2.wav",
+   "bytes": 48108,
+   "sha256": "69173f2fc1e4dbc9f89d13913eb18ed4f75bcf60d78bb5b28a539c29d1d6f7f0",
+   "from": "desktop/logs/utts_s3/s3_s11_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v2_r3.wav",
+   "bytes": 58348,
+   "sha256": "bd9a8634a005ebe5ff4834e8a7b5feb99e2fe77f137f967aa21106b9d1be4e02",
+   "from": "desktop/logs/utts_s3/s3_s11_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v3_r1.wav",
+   "bytes": 54252,
+   "sha256": "4d780a09ad6d33cfbacf5d04ebf11cbb178ccc6009ae42fd09eca635b3fb963e",
+   "from": "desktop/logs/utts_s3/s3_s11_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v3_r2.wav",
+   "bytes": 50156,
+   "sha256": "e6abece53dbb40562b15c640d5c468d4e3ac50a4095caac5eff394b6c9415dd3",
+   "from": "desktop/logs/utts_s3/s3_s11_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s11_v3_r3.wav",
+   "bytes": 52204,
+   "sha256": "6f3fc0a9d240e22184176c72c28de979778a01c02d58cb2cb4566ca4cb8c176b",
+   "from": "desktop/logs/utts_s3/s3_s11_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v1_r2.wav",
+   "bytes": 26604,
+   "sha256": "69e8b47bb44eba770b1303aa69051666655630ace787fec086842a7db12fb10d",
+   "from": "desktop/logs/utts_s3/s3_s12_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v1_r3.wav",
+   "bytes": 24556,
+   "sha256": "c6cf5b579e2879fd86a663639e65a1923d42c4ce88d9efb6d69c31b3ef4c9dc3",
+   "from": "desktop/logs/utts_s3/s3_s12_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v2_r1.wav",
+   "bytes": 25580,
+   "sha256": "c78c376871df90a1b21f010c5738c1a63f6c9f70c1ab1c1f658cb24fe176a041",
+   "from": "desktop/logs/utts_s3/s3_s12_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v2_r2.wav",
+   "bytes": 26604,
+   "sha256": "22edb9e6ef5e28d8f8ea852175af04223df0d70b54ea83a21d1b4704346af1e1",
+   "from": "desktop/logs/utts_s3/s3_s12_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v2_r3.wav",
+   "bytes": 30700,
+   "sha256": "75f5dc58416540ddac0a37f0c0cb102c9dba1e110edb8dc43713b8d0c809899f",
+   "from": "desktop/logs/utts_s3/s3_s12_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v3_r1.wav",
+   "bytes": 23532,
+   "sha256": "7aa7e7ece26b61a91a7a2fa8aa71f9c7d7534dbc272628c95a0cebd5463b1987",
+   "from": "desktop/logs/utts_s3/s3_s12_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v3_r2.wav",
+   "bytes": 26604,
+   "sha256": "2d23fcf235e69fddeb606e8052012d9cf9d302ac2351dbfced569edb7574af35",
+   "from": "desktop/logs/utts_s3/s3_s12_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s12_v3_r3.wav",
+   "bytes": 26604,
+   "sha256": "8a289417134c181f463e3978c3b8b7c4aafba5cadd52a16411957c7205fa25af",
+   "from": "desktop/logs/utts_s3/s3_s12_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v1_r1.wav",
+   "bytes": 68588,
+   "sha256": "b944d541b21102425c61f9a36c869fec301c13a5b693f50189742e030a5b2e51",
+   "from": "desktop/logs/utts_s3/s3_s13_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v1_r2.wav",
+   "bytes": 72684,
+   "sha256": "8abc86683f645d96e63a75c98ef617f0d55476836661d5b4511b073fa3b14a06",
+   "from": "desktop/logs/utts_s3/s3_s13_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v1_r3.wav",
+   "bytes": 67564,
+   "sha256": "2c52043f16bade3469b90fbdee11d29265b3d6e7c1f87a57f7c7b83c0a1d0522",
+   "from": "desktop/logs/utts_s3/s3_s13_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v2_r1.wav",
+   "bytes": 74732,
+   "sha256": "bdea14707a922367d5cedcb38c58c29adc74b404f6059024b5faa44784309ee9",
+   "from": "desktop/logs/utts_s3/s3_s13_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v2_r2.wav",
+   "bytes": 72684,
+   "sha256": "467996bdfea03aa74e2a289efdbc2aabec8fc6224ff824e0a7c2bdd326f0ba48",
+   "from": "desktop/logs/utts_s3/s3_s13_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v2_r3.wav",
+   "bytes": 82924,
+   "sha256": "89a885594210e66c0bd298074ed35f817e98b9ec70eca420896ce343dffadc5e",
+   "from": "desktop/logs/utts_s3/s3_s13_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v3_r1.wav",
+   "bytes": 75756,
+   "sha256": "27ea712ccf32ddc0086fa246f7821c679c686a58d476affc00c500f7ae755a09",
+   "from": "desktop/logs/utts_s3/s3_s13_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v3_r2.wav",
+   "bytes": 62444,
+   "sha256": "ffb88e538157510d4643db9ecbaf5a1a387d98ce39f38a2048b58949071ce318",
+   "from": "desktop/logs/utts_s3/s3_s13_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s13_v3_r3.wav",
+   "bytes": 70636,
+   "sha256": "625937c4c428ed4df903ccb5c45c384946e073486631f9df3d518bd19bb3d7b0",
+   "from": "desktop/logs/utts_s3/s3_s13_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v1_r1.wav",
+   "bytes": 63468,
+   "sha256": "21e97f9b65ac5dd759a09455db9d2e5bcd7c4035b22a9196342ab23db11f54b4",
+   "from": "desktop/logs/utts_s3/s3_s14_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v1_r2.wav",
+   "bytes": 74732,
+   "sha256": "acb5aafb8200d2652227136c3537d35b85ed084f44007a4bfdb1f85fc1358c09",
+   "from": "desktop/logs/utts_s3/s3_s14_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v1_r3.wav",
+   "bytes": 56300,
+   "sha256": "b631f867bf17012e14a3e0b602db0fb3162d5e3a8ca1874190ecd3c78f4c98a3",
+   "from": "desktop/logs/utts_s3/s3_s14_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v2_r1.wav",
+   "bytes": 58348,
+   "sha256": "552e7558071b9d03bab336d4f4113966d8e42ff2c5f5db34435ade890a308c5c",
+   "from": "desktop/logs/utts_s3/s3_s14_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v2_r2.wav",
+   "bytes": 58348,
+   "sha256": "98f23f86871f8b9dc96972709f257141d97988780b91772f51bb94d33e6fea8d",
+   "from": "desktop/logs/utts_s3/s3_s14_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v2_r3.wav",
+   "bytes": 65516,
+   "sha256": "535a939c0d96f55122a6341e2b0dffd82bb5888017f82079e6b157238f58bd7f",
+   "from": "desktop/logs/utts_s3/s3_s14_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v3_r1.wav",
+   "bytes": 59372,
+   "sha256": "24bb5b8a233ccdc68b23c33ee20b7cd9babb65d7efc3d27c0136c12a1d9c62cb",
+   "from": "desktop/logs/utts_s3/s3_s14_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v3_r2.wav",
+   "bytes": 55276,
+   "sha256": "465c094526a704cfc616c5dd574186285763c55b0bc4e2ab0486c8b727f0ac67",
+   "from": "desktop/logs/utts_s3/s3_s14_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s14_v3_r3.wav",
+   "bytes": 56300,
+   "sha256": "f61536befac3c5e1ab3341c345aef8061efc267fbd2dcd35123dfaee0c2079ca",
+   "from": "desktop/logs/utts_s3/s3_s14_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v1_r1.wav",
+   "bytes": 55276,
+   "sha256": "8ef00b4ac8a1580c993d036f2e6045b6751555ca0c5199b7d2488017daf8e981",
+   "from": "desktop/logs/utts_s3/s3_s15_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v1_r2.wav",
+   "bytes": 55276,
+   "sha256": "4472e4419f4c17bbdd067a46e55d499c651a6200ac99105f585e413447a5f1cb",
+   "from": "desktop/logs/utts_s3/s3_s15_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v1_r3.wav",
+   "bytes": 55276,
+   "sha256": "0a1be6cafd14fb30d64285bd5e224c3f973e41e5e82743f64f7b7dab8c74dbf3",
+   "from": "desktop/logs/utts_s3/s3_s15_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v2_r1.wav",
+   "bytes": 64492,
+   "sha256": "6b3cb274440b018ecf93aafe58d38b49923ba166efefc89297ae08fb01c69dcb",
+   "from": "desktop/logs/utts_s3/s3_s15_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v2_r2.wav",
+   "bytes": 64492,
+   "sha256": "8afbc9581b0a20514d6cc4a1355ab243ace335675a45f3b16f2b4bd7b144e943",
+   "from": "desktop/logs/utts_s3/s3_s15_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v2_r3.wav",
+   "bytes": 64492,
+   "sha256": "0124e6ec2c370c7a1ab4151d58a4023115afbed731c34962c9ec8ab6eb42be38",
+   "from": "desktop/logs/utts_s3/s3_s15_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v3_r1.wav",
+   "bytes": 61420,
+   "sha256": "f56a3580fc33ceac7d5cbbe456dda4fb2c6cde44ea4cf3081f82ed9a0b8775d7",
+   "from": "desktop/logs/utts_s3/s3_s15_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v3_r2.wav",
+   "bytes": 61420,
+   "sha256": "b1befed8cb9a92489ea82764cb947e2a1dda0dbff8397b63118626cfacb0d7a8",
+   "from": "desktop/logs/utts_s3/s3_s15_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s15_v3_r3.wav",
+   "bytes": 61420,
+   "sha256": "101ada02401ab43f4d6897082c6d931d8d31a8f8de0f48a815b1dc7df19b10be",
+   "from": "desktop/logs/utts_s3/s3_s15_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v1_r1.wav",
+   "bytes": 64492,
+   "sha256": "26efb245efde7c6e4ac14b058e05d41293767631a6f74f4d87f3eb6ecca62c2d",
+   "from": "desktop/logs/utts_s3/s3_s16_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v1_r2.wav",
+   "bytes": 64492,
+   "sha256": "fdf762d6952e9ce1f8e30767c98b13c36cd52ed84f77e40b6c3520375c362be5",
+   "from": "desktop/logs/utts_s3/s3_s16_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v1_r3.wav",
+   "bytes": 64492,
+   "sha256": "be93fb68100b511e8063d507ca1afa419de88bbfe195965a17e8cddcbcd5e619",
+   "from": "desktop/logs/utts_s3/s3_s16_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v2_r1.wav",
+   "bytes": 70636,
+   "sha256": "92ccd03f8d6572ba6a6c81d2096a963d6c84e6fec477fe527fb7968644c27158",
+   "from": "desktop/logs/utts_s3/s3_s16_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v2_r2.wav",
+   "bytes": 70636,
+   "sha256": "92d01f50d10c1d086882ea057749d9fca6aaec6b462ff0caa0ee7ba3e9fd33c3",
+   "from": "desktop/logs/utts_s3/s3_s16_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v2_r3.wav",
+   "bytes": 70636,
+   "sha256": "ec18bcde05bcbaffb453ab8a1f921099fb8399cc822485c64464219d7897016d",
+   "from": "desktop/logs/utts_s3/s3_s16_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v3_r1.wav",
+   "bytes": 70636,
+   "sha256": "30e6f44be6be1f5b32576138d902e35e400dc91c8f32b52e842a60709f006739",
+   "from": "desktop/logs/utts_s3/s3_s16_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v3_r2.wav",
+   "bytes": 70636,
+   "sha256": "3e2c059e3cb308d5ec3b3762fd456b116b74476bf49c6e2e57a933ab29b546fd",
+   "from": "desktop/logs/utts_s3/s3_s16_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s16_v3_r3.wav",
+   "bytes": 70636,
+   "sha256": "e18000f83bfad74bba45c4823b463f925dc9e95e36f08088b3f55ef0f78f1c17",
+   "from": "desktop/logs/utts_s3/s3_s16_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v1_r1.wav",
+   "bytes": 50156,
+   "sha256": "bbfd6574ca04abdc4546cbedfecce2034d6562570788f85bce9d5cad9cd78613",
+   "from": "desktop/logs/utts_s3/s3_s17_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v1_r2.wav",
+   "bytes": 50156,
+   "sha256": "a5c39b53e0384922684875aac83a1e90b0bfc5cbb09a17b408cccdc336aa9a03",
+   "from": "desktop/logs/utts_s3/s3_s17_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v1_r3.wav",
+   "bytes": 50156,
+   "sha256": "23e666ab886f73c9e37c2b6b041cb7e8a9f983e668f89aa13ee65d0012d6e11a",
+   "from": "desktop/logs/utts_s3/s3_s17_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v2_r1.wav",
+   "bytes": 53228,
+   "sha256": "7bd379e6efc2313908aa7ae3452116857ea60e9ea4133d7b3831b442eb66b3cb",
+   "from": "desktop/logs/utts_s3/s3_s17_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v2_r2.wav",
+   "bytes": 53228,
+   "sha256": "8de56cab8e850751c6326144d530fd3c99b38b2e4c93ea33490e380a8c2e4ec1",
+   "from": "desktop/logs/utts_s3/s3_s17_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v2_r3.wav",
+   "bytes": 53228,
+   "sha256": "9418b447dc8a81cd576404f6720066f0367f9630cd47873bcd5c226a58fbced1",
+   "from": "desktop/logs/utts_s3/s3_s17_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v3_r1.wav",
+   "bytes": 54252,
+   "sha256": "498054325ec4b582108ffab12ed2fe5f9dc1e6963744644129a5424427b89ff0",
+   "from": "desktop/logs/utts_s3/s3_s17_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v3_r2.wav",
+   "bytes": 54252,
+   "sha256": "bc0e99000e800a6e20507fed56515237552bb94696fc0a1cd79b8b064226d78d",
+   "from": "desktop/logs/utts_s3/s3_s17_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s17_v3_r3.wav",
+   "bytes": 54252,
+   "sha256": "38ab64d104d419995c2f9dc033c9da3ea5afa40ba9c3cce0c082ab1c4f07e057",
+   "from": "desktop/logs/utts_s3/s3_s17_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v1_r1.wav",
+   "bytes": 45036,
+   "sha256": "c27f1615a111ef49d48648dd00074eb4fa6f16044a8b6ae078b6b78815fcd48a",
+   "from": "desktop/logs/utts_s3/s3_s18_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v1_r2.wav",
+   "bytes": 45036,
+   "sha256": "9ae38a68222de9598491085c261007c0a0b49f993a2ccd23b3054f0450f4af2e",
+   "from": "desktop/logs/utts_s3/s3_s18_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v1_r3.wav",
+   "bytes": 45036,
+   "sha256": "e68f2fc1cd2466e10090cb83c79ba698c9d4a46d59752a890a8b26c351033d55",
+   "from": "desktop/logs/utts_s3/s3_s18_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v2_r1.wav",
+   "bytes": 52204,
+   "sha256": "026adaff893a4d8f90c600aadb01bbae09cd1db8ec087e529a8798465d57031a",
+   "from": "desktop/logs/utts_s3/s3_s18_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v2_r2.wav",
+   "bytes": 52204,
+   "sha256": "b87dbb5741e814976638b718e5c1bb35fdb256a74095b21ec6fd482a5516445a",
+   "from": "desktop/logs/utts_s3/s3_s18_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v2_r3.wav",
+   "bytes": 52204,
+   "sha256": "b2646755079c399dd5ea277c15e748267bc3a45262d17dd29e65f69eb586c74b",
+   "from": "desktop/logs/utts_s3/s3_s18_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v3_r1.wav",
+   "bytes": 48108,
+   "sha256": "141fe84e03789fa94a7b9999bac58456dde49abe3f200b7df48ff8a3adac11c7",
+   "from": "desktop/logs/utts_s3/s3_s18_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v3_r2.wav",
+   "bytes": 48108,
+   "sha256": "8418c01c0be342ccf322415856e2ddb305a15af7792ab5ef413959586a9ed5e6",
+   "from": "desktop/logs/utts_s3/s3_s18_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s18_v3_r3.wav",
+   "bytes": 48108,
+   "sha256": "ee1f023f379136e0863131482336597ea37a2f33ab5653a641b691efdfc7089c",
+   "from": "desktop/logs/utts_s3/s3_s18_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v1_r1.wav",
+   "bytes": 34796,
+   "sha256": "211856dae9bbd74822b56a3da2afcda06bdcaab785e501095841612828bf3306",
+   "from": "desktop/logs/utts_s3/s3_s19_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v1_r2.wav",
+   "bytes": 34796,
+   "sha256": "49688b6c7913a0f9fb36355b73ba319dceb15a749a33431bdd22630958419585",
+   "from": "desktop/logs/utts_s3/s3_s19_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v1_r3.wav",
+   "bytes": 34796,
+   "sha256": "fa411429000cf68463162fe624622bfbc991ee33d01459816a8f7c4f5ad56048",
+   "from": "desktop/logs/utts_s3/s3_s19_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v2_r1.wav",
+   "bytes": 34796,
+   "sha256": "a1c0c4cdde3b1eae6c7264825cc33e74c5fa7d1ba0cc0d12cd56ca53e11e2534",
+   "from": "desktop/logs/utts_s3/s3_s19_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v2_r2.wav",
+   "bytes": 34796,
+   "sha256": "ff96c2ae728cf1720b64f3020201910fc61b92a022db1e863626ade77161062a",
+   "from": "desktop/logs/utts_s3/s3_s19_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v2_r3.wav",
+   "bytes": 34796,
+   "sha256": "0933c59a5522aec3f6872033d8efec6c304a6b52e38d58882b31acd6230bebb6",
+   "from": "desktop/logs/utts_s3/s3_s19_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v3_r1.wav",
+   "bytes": 35820,
+   "sha256": "12a8ced1f7409661e1e8445180161d716939a1b76aa454c07b73f31813352293",
+   "from": "desktop/logs/utts_s3/s3_s19_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v3_r2.wav",
+   "bytes": 35820,
+   "sha256": "8ebe1ee98793a033375d18ea7fb1a0c020b0fa1a1bc4ed0a0b3cd3ba98af44a1",
+   "from": "desktop/logs/utts_s3/s3_s19_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s19_v3_r3.wav",
+   "bytes": 35820,
+   "sha256": "67bfe30669461ce7698ea929d731c8cd598a1dfcb57bd30ebfdc10af84eefe2e",
+   "from": "desktop/logs/utts_s3/s3_s19_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v1_r1.wav",
+   "bytes": 57324,
+   "sha256": "041465358387db34c49a9a700e18b977c702d1dfae235cf1c284b26614a4253f",
+   "from": "desktop/logs/utts_s3/s3_s20_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v1_r2.wav",
+   "bytes": 57324,
+   "sha256": "12a3480becc6f15680a3bd5aa10dfe2e13c6546d6240cc25e90a785d1d9d8122",
+   "from": "desktop/logs/utts_s3/s3_s20_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v1_r3.wav",
+   "bytes": 57324,
+   "sha256": "9160c03c5b64499022e3c88d3a5961c5306efda287c49224f5ad66d932a4b29c",
+   "from": "desktop/logs/utts_s3/s3_s20_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v2_r1.wav",
+   "bytes": 61420,
+   "sha256": "3b0003051889d70e376f42e4a656a317684d03e7403f1a60205136dd326d8b51",
+   "from": "desktop/logs/utts_s3/s3_s20_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v2_r2.wav",
+   "bytes": 61420,
+   "sha256": "b135281c8f99d48c907358ae10ba6d1f619ea74c772ee231b13695ca3a4dc795",
+   "from": "desktop/logs/utts_s3/s3_s20_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v2_r3.wav",
+   "bytes": 61420,
+   "sha256": "601484129841ec4ecf78e3beeba9699722ff0416a06413144c10928d94e54f11",
+   "from": "desktop/logs/utts_s3/s3_s20_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v3_r1.wav",
+   "bytes": 66540,
+   "sha256": "e483ba2b6508ececb27c4638b2da56431d24cf5fb319883f3438c6376c35018c",
+   "from": "desktop/logs/utts_s3/s3_s20_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v3_r2.wav",
+   "bytes": 66540,
+   "sha256": "7046469ecf0c7127dc385deb2e49d0b52dd4d8695d4d7c2423d4603093783771",
+   "from": "desktop/logs/utts_s3/s3_s20_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s20_v3_r3.wav",
+   "bytes": 66540,
+   "sha256": "68dcb974dba79674bec5e0de3b0b9122376df94a86d5d4f94e39ab498c560798",
+   "from": "desktop/logs/utts_s3/s3_s20_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v1_r1.wav",
+   "bytes": 70636,
+   "sha256": "c606dde3f439a6c0fa69a18ae0ebaf1ce72b9656251ac557be9ec9d157cc6d30",
+   "from": "desktop/logs/utts_s3/s3_s21_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v1_r2.wav",
+   "bytes": 70636,
+   "sha256": "da84220388babaf6330412ae506bf671df50785d06e40f336f4f7cc9154b5db7",
+   "from": "desktop/logs/utts_s3/s3_s21_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v1_r3.wav",
+   "bytes": 70636,
+   "sha256": "995736071517c5778eaa0c422ff3f7576a1c26f839e13bf0fa1db1d302398632",
+   "from": "desktop/logs/utts_s3/s3_s21_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v2_r1.wav",
+   "bytes": 73708,
+   "sha256": "7a8e4b3937c4fdf84bd840fefb013959cb1432adcf6e09726cba9854dfb95760",
+   "from": "desktop/logs/utts_s3/s3_s21_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v2_r2.wav",
+   "bytes": 73708,
+   "sha256": "f017ced4d0a44ff5d9876748433fac3453543f3926e3fd4c85e4bf735d422472",
+   "from": "desktop/logs/utts_s3/s3_s21_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v2_r3.wav",
+   "bytes": 73708,
+   "sha256": "62eb7f86a4cd3d12eca79c18ab458feddd24814f9bb0b71e996a4edb1f60dd18",
+   "from": "desktop/logs/utts_s3/s3_s21_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v3_r1.wav",
+   "bytes": 77804,
+   "sha256": "4ef3e106ab707859d0618f82858c0066e7ec47924c4e160dd7f41839f3c218f6",
+   "from": "desktop/logs/utts_s3/s3_s21_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v3_r2.wav",
+   "bytes": 77804,
+   "sha256": "9fc6c7416b66159423bd633e73a6d0889f142980dfbeb76b4453497590c9e73c",
+   "from": "desktop/logs/utts_s3/s3_s21_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s21_v3_r3.wav",
+   "bytes": 77804,
+   "sha256": "7e8caec158353a5f54d3ce3bcb65eef789824c5c7e2ca76c19b249f2aa1ea532",
+   "from": "desktop/logs/utts_s3/s3_s21_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v1_r1.wav",
+   "bytes": 48108,
+   "sha256": "ceac84aff5b3e50cf4c14bfc623671438b39920efcde1a48638f038e82cdc9a0",
+   "from": "desktop/logs/utts_s3/s3_s22_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v1_r2.wav",
+   "bytes": 48108,
+   "sha256": "b5c5f6d5d4e2966a79a108df8d359a8d9ed0f6a980f420cc21d8e89a09b60d0d",
+   "from": "desktop/logs/utts_s3/s3_s22_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v1_r3.wav",
+   "bytes": 48108,
+   "sha256": "9fef947da85be9b08d3678f3c60c9d93199ac61a5b0e277118fce75208da43d5",
+   "from": "desktop/logs/utts_s3/s3_s22_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v2_r1.wav",
+   "bytes": 50156,
+   "sha256": "5441934961877042cec13dae3d52b3635e12200c49c267c800f6c2b293768ac9",
+   "from": "desktop/logs/utts_s3/s3_s22_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v2_r2.wav",
+   "bytes": 50156,
+   "sha256": "1bec8b0607ad42fcd942e23309010a1b65cc1b540800fed0780b5d6a6b0add80",
+   "from": "desktop/logs/utts_s3/s3_s22_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v2_r3.wav",
+   "bytes": 50156,
+   "sha256": "f220c974d4c09ac6e8f5101d8b22166125b95ecbe0c6272baa9bb73d3d7488bd",
+   "from": "desktop/logs/utts_s3/s3_s22_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v3_r1.wav",
+   "bytes": 50156,
+   "sha256": "636ed783439a40df765f3316cef1562b38250b2a23f4154dd5f29990923161a1",
+   "from": "desktop/logs/utts_s3/s3_s22_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v3_r2.wav",
+   "bytes": 50156,
+   "sha256": "da4ba8306be90834dd3ce2f3b81277be7c896d213fbb78073ee233c62af644cf",
+   "from": "desktop/logs/utts_s3/s3_s22_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s22_v3_r3.wav",
+   "bytes": 50156,
+   "sha256": "3118a52f900cb6b4faab4c85203a157523b83fc789f07abdccb2ace6b6290b3c",
+   "from": "desktop/logs/utts_s3/s3_s22_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v1_r1.wav",
+   "bytes": 41964,
+   "sha256": "6562ee2b3a67ddc5214fe0119514508db6e3e5c4526dae07994fc7ebc881e14c",
+   "from": "desktop/logs/utts_s3/s3_s23_v1_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v1_r2.wav",
+   "bytes": 42988,
+   "sha256": "cfc6215a5ba11b2db2bba7e47914136d19e8ae0e30367860cf0e43fcc48f2964",
+   "from": "desktop/logs/utts_s3/s3_s23_v1_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v1_r3.wav",
+   "bytes": 41964,
+   "sha256": "69bf393600ab60fa85b33aa681bd674fc60b5501ecfc32fb932b642f29616f39",
+   "from": "desktop/logs/utts_s3/s3_s23_v1_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v2_r1.wav",
+   "bytes": 45036,
+   "sha256": "33ac417154dce4ed574dd8cd57e7957a9529cd42a73b8973e26caf7e184d0e75",
+   "from": "desktop/logs/utts_s3/s3_s23_v2_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v2_r2.wav",
+   "bytes": 45036,
+   "sha256": "6764a45b6d0b388332dc848edf48eedbcda88a674f9f8f1c584b30b4891b45a5",
+   "from": "desktop/logs/utts_s3/s3_s23_v2_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v2_r3.wav",
+   "bytes": 45036,
+   "sha256": "ef27c44c7cc055139cc499ff9c4504e38c646ca35f19756787aef2426f112630",
+   "from": "desktop/logs/utts_s3/s3_s23_v2_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v3_r1.wav",
+   "bytes": 48108,
+   "sha256": "c9ac56c69bdb51f40883c39af30948add61ad4c73ffc997ed241f4d2866e67bf",
+   "from": "desktop/logs/utts_s3/s3_s23_v3_r1.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v3_r2.wav",
+   "bytes": 48108,
+   "sha256": "b5d05bdb8358c1c7076722b3e6c266fe43d2a6fdc9978fb14003dfa8b4d9cce8",
+   "from": "desktop/logs/utts_s3/s3_s23_v3_r2.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  },
+  {
+   "path": "data/stt/s3/s3_s23_v3_r3.wav",
+   "bytes": 48108,
+   "sha256": "533e6bd680e60e2d52f1b5841f155567080951e4100f1ae8bb41b52ea7468cb9",
+   "from": "desktop/logs/utts_s3/s3_s23_v3_r3.wav",
+   "group": "tầng S3: giọng tổng hợp, hash khớp manifest (§1b)"
+  }
+ ]
+}

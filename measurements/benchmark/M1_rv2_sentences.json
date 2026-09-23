@@ -1,0 +1,122 @@
+{
+ "_ghi_chu": "Bộ câu M1 tầng chính rv2 (AMENDMENT 02). v2 = bộ đã duyệt 16/09 sau khi sửa theo m1_kiem_bo_cau.py: rút ngắn (số từ TB 7,17 -> khớp pilot 5,42), thay 'Switch to English.' (gần trùng chữ 'Switch to Vietnamese.') và 'Đổi sang tiếng Việt đi em.' (trùng NGHĨA với câu ấy, máy không bắt được). File WAV: desktop/logs/utts_rv2/rv2_sNN_rK.wav, NN = số câu 01..23, K = lần đọc 1..3. | v3 (17/09, việc 120.1 làm bù ở đợt 27d): câu 9 'Nhỏ tiếng lại một chút.' bị luật đếm nhận là khó chỉ vì chữ 'một' -> thay bằng 'Nhắn Zalo cho anh Tuấn.' (từ vay mượn + tên riêng), giữ 23 câu. Luật đếm KHÔNG đổi. AMENDMENT 04: bộ này không còn để thu giọng thật; dùng cho tầng S3 (tổng hợp).",
+ "phien_ban": 3,
+ "lan_doc": 3,
+ "cau": [
+  {
+   "so": 1,
+   "text": "Mai bảy giờ anh bay ra Hà Nội.",
+   "lang": "vi"
+  },
+  {
+   "so": 2,
+   "text": "Gọi cho chị Hằng lúc năm giờ.",
+   "lang": "vi"
+  },
+  {
+   "so": 3,
+   "text": "Anh ngủ có bốn tiếng.",
+   "lang": "vi"
+  },
+  {
+   "so": 4,
+   "text": "Được rồi.",
+   "lang": "vi"
+  },
+  {
+   "so": 5,
+   "text": "Đọc lại câu vừa rồi.",
+   "lang": "vi"
+  },
+  {
+   "so": 6,
+   "text": "Họp ở tầng mười hai.",
+   "lang": "vi"
+  },
+  {
+   "so": 7,
+   "text": "Mở nhạc Trịnh Công Sơn.",
+   "lang": "vi"
+  },
+  {
+   "so": 8,
+   "text": "Cuối tháng nộp báo cáo quý ba.",
+   "lang": "vi"
+  },
+  {
+   "so": 9,
+   "text": "Nhắn Zalo cho anh Tuấn.",
+   "lang": "vi"
+  },
+  {
+   "so": 10,
+   "text": "Anh thích cà phê sữa đá.",
+   "lang": "vi"
+  },
+  {
+   "so": 11,
+   "text": "Hủy hẹn chiều thứ Tư.",
+   "lang": "vi"
+  },
+  {
+   "so": 12,
+   "text": "Tiếp tục.",
+   "lang": "vi"
+  },
+  {
+   "so": 13,
+   "text": "Anh chạy bộ thứ Ba và thứ Năm.",
+   "lang": "vi"
+  },
+  {
+   "so": 14,
+   "text": "Sài Gòn hôm nay có mưa không?",
+   "lang": "vi"
+  },
+  {
+   "so": 15,
+   "text": "What time is my next meeting?",
+   "lang": "en"
+  },
+  {
+   "so": 16,
+   "text": "Back up the database on Friday.",
+   "lang": "en"
+  },
+  {
+   "so": 17,
+   "text": "Please speak more slowly.",
+   "lang": "en"
+  },
+  {
+   "so": 18,
+   "text": "How many new emails?",
+   "lang": "en"
+  },
+  {
+   "so": 19,
+   "text": "Cancel that.",
+   "lang": "en"
+  },
+  {
+   "so": 20,
+   "text": "Flight VN two four seven.",
+   "lang": "en"
+  },
+  {
+   "so": 21,
+   "text": "Summarize the last three messages.",
+   "lang": "en"
+  },
+  {
+   "so": 22,
+   "text": "Open Google Maps.",
+   "lang": "en"
+  },
+  {
+   "so": 23,
+   "text": "That's all, thanks.",
+   "lang": "en"
+  }
+ ]
+}
