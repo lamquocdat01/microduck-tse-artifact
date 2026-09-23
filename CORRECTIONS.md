@@ -29,3 +29,19 @@ the source repository: each transformation now carries its own label.
 
 **Status:** `tse-v1.0` is left untouched. A future data release will carry the corrected labels
 and a new tag; the rule is that changing data means a new tag, never a moved one.
+
+## C2 — a redaction promised in an earlier submission was never applied
+
+An earlier version of the title page, prepared for a different venue, stated that one third-party
+company name occurring in the recorded transcripts is replaced by the token `[COMPANY]` in the
+public copy. **That replacement was never applied.** The released transcripts contain the company
+name as spoken, 23 times across `measurements/benchmark/M1_20260916_v1.jsonl`.
+
+The data is left as it is, deliberately. The name is a public company name occurring in ordinary
+question-and-answer speech, not personal data and under no confidentiality obligation, and the
+measurement is what it is only because the text is what was actually said. The sentence promising
+the redaction has been corrected in the submitted title page rather than the data being changed to
+match a sentence.
+
+Recorded here because a deposit that quietly differs from what its own documentation once claimed
+is the failure this project exists to describe.
